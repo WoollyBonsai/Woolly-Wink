@@ -1,0 +1,14 @@
+================================================================================
+              | Woolly Wink Objectives | Works over Wifi-Hotspot|
+====================================================================================
+All below written thing sshoul dbe feasable from android to deskto over wifi.
+the inut sharing part , file transfer and ssh sharing should be 2 way( on android we share the termux ssh)
+
+1. Notification sync
+2. File transfer
+3. Screen sharing
+4. Input sharing ( include playback controls) 
+5. SSH shell sharing
+6. audio sharing (options over bluetooth as well as over wifi)
+7. camera sync
+8. premade controls for shutdown , log off and other

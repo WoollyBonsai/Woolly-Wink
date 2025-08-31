@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.zorinos.zorin_connect-mergeDebugResources-72:/layout-v23/pairing_explanation_not_trusted.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-75:/layout-v23/pairing_explanation_not_trusted.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeDebugResources-72:/layout-v23/pairing_explanation_text_no_wifi.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-75:/layout-v23/pairing_explanation_text_no_wifi.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeDebugResources-72:/layout-v23/pairing_explanation_text_no_notifications.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-75:/layout-v23/pairing_explanation_text_no_notifications.xml"
+    }
+]

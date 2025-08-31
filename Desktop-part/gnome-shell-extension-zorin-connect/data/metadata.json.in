@@ -1,0 +1,7 @@
+{
+    "uuid": "zorin-connect@zorinos.com",
+    "name": "Zorin Connect",
+    "description": "Zorin Connect allows devices to securely share content like notifications or files and other features like SMS messaging and remote control.",
+    "version": @PACKAGE_VERSION@,
+    "shell-version": [ "46", "47", "48" ]
+}

@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--libdir=/usr/lib \
+		-Dfirewalld=true \
+		-Dinstalled_tests=false
+
+# Tests do not appear to work outside of a graphical GNOME shell environment
+override_dh_auto_test:
+
+execute_after_dh_fixperms:
+	chmod +x debian/gnome-shell-extension-zorin-connect/usr/share/gnome-shell/extensions/zorin-connect@zorinos.com/service/nativeMessagingHost.js
+	chmod +x debian/gnome-shell-extension-zorin-connect/usr/share/gnome-shell/extensions/zorin-connect@zorinos.com/service/daemon.js
+
+# Use debian/postinst to install the Chrome conffile
+# and debian/postrm to remove it since dpkg's automatic
+# conffile handling doesn't handle the special /etc/opt/ directory
+# https://bugs.debian.org/888549
+execute_after_dh_auto_install:
+	mkdir -p debian/gnome-shell-extension-zorin-connect-browsers/usr/share/gnome-shell-extension-zorin-connect
+	mv debian/tmp/etc/opt/chrome/native-messaging-hosts/org.gnome.shell.extensions.zorin_connect.json \
+		debian/gnome-shell-extension-zorin-connect-browsers/usr/share/gnome-shell-extension-zorin-connect/org.gnome.shell.extensions.zorin_connect.json
+	rm -rf debian/tmp/etc/opt

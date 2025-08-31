@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: Zorin Connect Developers https://github.com/ZorinOS/gnome-shell-extension-zorin-connect
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+[Desktop Entry]
+Type=Application
+Name=Zorin Connect Preferences
+Exec=gapplication action org.gnome.Shell.Extensions.ZorinConnect preferences
+Terminal=false
+NoDisplay=true
+Icon=org.gnome.Shell.Extensions.ZorinConnect
+Categories=Network;
+
