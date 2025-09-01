@@ -4,7 +4,7 @@
             "outputFile": "com.zorinos.zorin_connect-mergeDebugResources-71:/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/home/woolly/Desktop/Woolly-Wink/android-part/zorin-connect-android/res/values-v27/styles.xml",
+                    "source": "/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/res/values-v27/styles.xml",
                     "from": {
                         "startLines": "15,9,23,17",
                         "startColumns": "4,4,4,4",

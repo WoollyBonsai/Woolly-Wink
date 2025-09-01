@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="convert_to_mms_after_entries"><item>После одного сообщения</item><item>После двух сообщений</item><item>После трёх сообщений</item><item>После четырёх сообщений</item><item>После пяти сообщений</item></string-array>
+    <string-array name="mousepad_acceleration_profile_entries"><item>Отключить ускорение</item><item>Минимальное</item><item>Меньше среднего</item><item>Среднее</item><item>Выше среднего</item><item>Высокое</item></string-array>
+    <string-array name="mousepad_sensitivity_entries"><item>Самая низкая</item><item>Низкая</item><item>Обычная</item><item>Высокая</item><item>Самая высокая</item></string-array>
+    <string-array name="mousepad_tap_entries"><item>Нажатие левой кнопки</item><item>Нажатие правой кнопки</item><item>Нажатие средней кнопки</item><item>Ничего не делать</item></string-array>
+    <string-array name="mpris_time_entries"><item>10 секунд</item><item>20 секунд</item><item>30 секунд</item><item>1 минута</item><item>2 минуты</item></string-array>
+    <string-array name="theme_list"><item>Настроено согласно параметрам «Экономии заряда»</item><item>Светлая</item><item>Тёмная</item></string-array>
+    <string-array name="theme_list_v28"><item>Системная по умолчанию</item><item>Светлая</item><item>Тёмная</item></string-array>
+    <plurals name="incoming_file_title"><item quantity="one">Получение %1$d файла с %2$s</item><item quantity="few">Получение %1$d файлов с %2$s</item><item quantity="many">Получение %1$d файлов с %2$s</item><item quantity="other">Получение %1$d файла с %2$s</item></plurals>
+    <plurals name="incoming_files_text"><item quantity="one">(Файл %2$d из %3$d): %1$s</item><item quantity="few">(Файл %2$d из %3$d): %1$s</item><item quantity="many">(Файл %2$d из %3$d): %1$s</item><item quantity="other">Файл: %1$s</item></plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <plurals name="outgoing_file_title"><item quantity="one">Передача %1$d файла на %2$s</item><item quantity="few">Передача %1$d файлов на %2$s</item><item quantity="many">Передача %1$d файлов на %2$s</item><item quantity="other">Передача %1$d файла на %2$s</item></plurals>
+    <plurals name="outgoing_files_text"><item quantity="one">(Файл %2$d из %3$d): %1$s</item><item quantity="few">(Файл %2$d из %3$d): %1$s</item><item quantity="many">(Файл %2$d из %3$d): %1$s</item><item quantity="other">Файл: %1$s</item></plurals>
+    <plurals name="received_files_fail_title"><item quantity="one">Не удалось получить %2$d из %3$d файла с %1$s</item><item quantity="few">Не удалось получить %2$d из %3$d файлов с %1$s</item><item quantity="many">Не удалось получить %2$d из %3$d файлов с %1$s</item><item quantity="other">Не удалось получить файл с %1$s</item></plurals>
+    <plurals name="received_files_title"><item quantity="one">С %1$s получен %2$d файл</item><item quantity="few">С %1$s получены %2$d файла</item><item quantity="many">С %1$s получено %2$d файлов</item><item quantity="other">С %1$s получен файл</item></plurals>
+    <plurals name="send_files_fail_title"><item quantity="one">Не удалось передать %2$d из %3$d файлов на %1$s</item><item quantity="few">Не удалось передать %2$d из %3$d файлов на %1$s</item><item quantity="many">Не удалось передать %2$d из %3$d файлов на %1$s</item><item quantity="other">Не удалось передать файл на %1$s</item></plurals>
+    <plurals name="sent_files_title"><item quantity="one">На %1$s передан %2$d файл</item><item quantity="few">На %1$s переданы %2$d файла</item><item quantity="many">На %1$s переданы %2$d файлов</item><item quantity="other">На %1$s передан %2$d файл</item></plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about">О программе</string>
+    <string name="about_kde">О KDE</string>
+    <string name="about_kde_about">&lt;h1>О программе&lt;/h1> &lt;p>KDE — сообщество разработчиков, художников, писателей и переводчиков со всего мира, вносящих вклад в разработку &lt;a href=https://www.gnu.org/philosophy/free-sw.html>свободного программного обеспечения&lt;/a>. KDE выпускает рабочую среду Plasma, сотни прикладных программ, а также множество необходимых для них программных библиотек&lt;/p> &lt;p>Не существует группы или организации, держащей под исключительным контролем действия или направления развития продуктов KDE. Вместо централизованного подхода мы стремимся к общей цели — созданию лучшего в мире свободного ПО. Мы будем рады каждому, кто захочет &lt;a href=https://community.kde.org/Get_Involved>внести свой вклад&lt;/a> в развитие KDE.&lt;/p> Для того чтобы больше узнать о проекте, зайдите на сайт &lt;a href=https://www.kde.org/>https://www.kde.org/&lt;/a>.</string>
+    <string name="about_kde_report_bugs_or_wishes">&lt;h1>Ошибки и пожелания&lt;/h1> &lt;p>Программное обеспечение всегда можно улучшить, и команда KDE готова этим заниматься. Однако, для этого надо, чтобы вы, обычный пользователь, сообщили нам о том, что не соответствует вашим ожиданиям и что можно было бы улучшить.&lt;/p> &lt;p>В рамках проекта KDE создана система учёта ошибок и пожеланий. Для того чтобы сообщить об ошибке, зайдите на сайт &lt;a href=https://bugs.kde.org/>https://bugs.kde.org/&lt;/a> или используйте пункт «Сообщить об ошибке...» из меню «О программе».&lt;/p> При регистрации пожеланий не забудьте установить уровень важности «Wishlist» (пожелание).&lt;/p> Для связи с командой перевода KDE на русский язык используйте контакты, указанные на странице &lt;a href=\"https://kde.ru/translation\">kde.ru/translation</string>
+    <string name="about_kde_support_kde">&lt;h1>Поддержать KDE&lt;/h1> &lt;p>Среда KDE распространяется бесплатно, но её создание требует затрат.&lt;/p> &lt;p>Поэтому команда KDE основала Ассоциацию KDE, некоммерческую организацию, которая зарегистрирована в Германии. Ассоциация KDE представляет проект KDE в правовом и финансовом аспектах. Посетите &lt;a href=https://ev.kde.org/>https://ev.kde.org/&lt;/a> для получения более подробной информации об Ассоциации KDE.&lt;/p> &lt;p>Финансовая поддержка идёт на благо KDE. Большая часть средств используется для возмещения расходов участников проекта, которые они несут при разработке KDE. Остальные средства используются для юридической поддержки и организации конференций и встреч. Вы можете поддержать KDE финансовым пожертвованием, которое может быть внесено одним из способов, описанных на странице &lt;a href=https://www.kde.org/community/donations/>https://www.kde.org/community/donations/&lt;/a>.&lt;/p>Заранее благодарим за поддержку!</string>
+    <string name="add_command">Добавить команду</string>
+    <string name="add_command_description">Команды возможно добавлять с рабочего стола</string>
+    <string name="add_device_dialog_title">Добавление устройства</string>
+    <string name="add_device_hint">Имя хоста или адрес IP</string>
+    <string name="add_trusted_network">Добавить %1s</string>
+    <string name="addcommand_explanation">Нет настроенных команд.</string>
+    <string name="addcommand_explanation2">Новые команды можно добавить в системных параметрах Zorin Connect.</string>
+    <string name="alex_fiestas_task">Улучшения модуля «контакты»</string>
+    <string name="all">Все</string>
+    <string name="allow_all_networks_text">Разрешить во всех сетях</string>
+    <string name="aniket_kumar_task">Улучшения модуля SMS</string>
+    <string name="apple_support">Поддержка macOS, работа над поддержкой iOS.</string>
+    <string name="authors">Авторы</string>
+    <string name="battery_status_charging_format">Заряд батареи: %d%% (заряжается)</string>
+    <string name="battery_status_format">Заряд батареи: %d%%</string>
+    <string name="battery_status_low_format">Заряд батареи: %d%% (низкий уровень)</string>
+    <string name="bigscreen_down">Вниз</string>
+    <string name="bigscreen_home">На домашнюю страницу</string>
+    <string name="bigscreen_left">Влево</string>
+    <string name="bigscreen_mic">Микрофон</string>
+    <string name="bigscreen_optional_permission_explanation">Для общего использования телефонного микрофона разрешите доступ к вводу аудио в телефоне.</string>
+    <string name="bigscreen_right">Вправо</string>
+    <string name="bigscreen_select">Выбрать</string>
+    <string name="bigscreen_speech_extra_prompt">Речь</string>
+    <string name="bigscreen_up">Вверх</string>
+    <string name="block_contents">Блокировать содержимое уведомлений</string>
+    <string name="block_images">Блокировать изображения в уведомлениях</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string name="bug_fixes_and_general_improvements">Исправления и улучшения</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Ответить"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Отклонить"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Завершить"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Входящий вызов"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Текущий вызов"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Фильтрация входящего вызова"</string>
+    <string name="cancel">Отмена</string>
+    <string name="cannot_create_file">Не удалось создать файл «%s»</string>
+    <string name="cant_open_url">Не удалось открыть URL для продолжения воспроизведения</string>
+    <string name="category_connected_devices">Подключённые устройства</string>
+    <string name="category_not_paired_devices">Доступные устройства</string>
+    <string name="category_remembered_devices">Известные устройства</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_compose">Очистить</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="click_here_to_type">Вводите текст в этой области</string>
+    <string name="clipboard_android_x_incompat">В ОС Android версии 10 для всех приложений был запрещён доступ к буферу. Этот подключаемый модуль будет отключён.</string>
+    <string name="clipboard_toast">Скопировано в буфер обмена</string>
+    <string name="close">Закрыть</string>
+    <string msgid="406453423630273620" name="close_drawer">"Закрыть меню навигации"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Закрыть лист"</string>
+    <string name="contacts_permission_explanation">Чтобы поделиться адресной книгой с рабочим столом, необходимо дать разрешение на доступ к контактам</string>
+    <string name="convert_to_mms_after_title">Преобразовать в MMS</string>
+    <string msgid="6083905920877235314" name="copy">"Копировать"</string>
+    <string name="copy_url_to_clipboard">Копировать URL в буфер обмена</string>
+    <string name="custom_device_deleted">Заданное вручную устройство удалено</string>
+    <string name="custom_device_fab_hint">Добавление устройства</string>
+    <string name="custom_device_list">Добавить устройства по IP</string>
+    <string name="custom_device_list_help">В случае, если устройство не было определено автоматически, то адрес IP или имя хоста этого устройства можно добавить, нажав на плавающую кнопку действия.</string>
+    <string name="custom_devices_settings">Устройства, заданные вручную</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Неправильный ввод"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Всплывающее окно"</string>
+    <string name="developer">Разработчик</string>
+    <string name="device_list_empty">Нет устройств</string>
+    <string name="device_menu_plugins">Параметры модулей</string>
+    <string name="device_menu_unpair">Снять сопряжение</string>
+    <string name="device_not_paired">Устройство не сопряжено</string>
+    <string name="device_rename_confirm">Переименовать</string>
+    <string name="device_rename_title">Переименование устройства</string>
+    <string name="devices">Устройства</string>
+    <string name="donate">Поддержать</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Раскрывающееся меню"</string>
+    <string name="easter_egg">Пасхальное яйцо</string>
+    <string name="email_contributor">Написать участнику по эл. почте:\n%s</string>
+    <string name="empty_trusted_networks_list_text">Ещё не было добавлено ни одной доверенной сети</string>
+    <string name="encryption_info_title">Информация о шифровании</string>
+    <string name="error_a11y_label">Ошибка: недопустимое значение</string>
+    <string name="error_already_paired">Устройство уже сопряжено</string>
+    <string name="error_canceled_by_other_peer">Отменено другим участником</string>
+    <string name="error_canceled_by_user">Отменено пользователем</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="error_not_reachable">Устройство недоступно</string>
+    <string name="error_timed_out">Истекло время ожидания</string>
+    <string name="everyone_else">Все остальные участники проекта Zorin Connect за несколько лет</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Дополнительно"</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="extra_options">Дополнительные параметры</string>
+    <string name="filter_apps_info">Выберите приложения для передачи их уведомлений на ПК</string>
+    <string name="findmyphone_description">Подача звукового сигнала на устройство, чтобы его можно было найти</string>
+    <string name="findmyphone_found">Найдено</string>
+    <string name="findmyphone_title">Поиск телефона</string>
+    <string name="findmyphone_title_tablet">Поиск планшета</string>
+    <string name="findmyphone_title_tv">Поиск телевизора</string>
+    <string name="foreground_notification_devices">Подключено к: %s</string>
+    <string name="foreground_notification_no_devices">Не подключено ни к одному устройству</string>
+    <string name="foreground_notification_send_clipboard">Передать буфер обмена</string>
+    <string name="holger_kaelberer_task">Модуль «удалённая клавиатура» и исправления ошибок</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string msgid="6827826412747255547" name="in_progress">"Выполняется"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Отмечено частично"</string>
+    <string name="invalid_device_name">Недопустимое имя устройства</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="kde">KDE</string>
+    <string name="kde_be_free">Будьте свободными!</string>
+    <string name="kde_connect">Zorin Connect</string>
+    <string name="konqi">Konqi</string>
+    <string name="licenses">Лицензии</string>
+    <string name="location_permission_needed_desc">Для получения информации о подключении к сети Wi-Fi приложению Zorin Connect требуется разрешение на доступ в сведениям о местоположении, даже когда оно работает в фоновом режиме. Необходимость предоставления такого разрешения связана с тем, что сведения о доступных сетях Wi-Fi могут использоваться для определения местоположения.</string>
+    <string name="location_permission_needed_title">Требуется разрешение</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Свернуть нижний экран"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Закрыть нижний экран"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Маркер перемещения"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Развернуть нижний экран"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Нижний экран"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Введенная дата"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Введенная дата: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Дата не соответствует допустимому шаблону: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Недопустимая дата: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Дата не входит в допустимый диапазон: %1$s–%2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Дата"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Нет"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Выберите дату"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Выбранная дата"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Текущий выбор: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Переход к %1$s году"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Нет"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Прокрутите до более ранних лет"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Прокрутите до более поздних лет"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Перейти в режим выбора даты"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Проведите по экрану, чтобы выбрать год, или нажмите, чтобы вернуться к выбору дня."</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Перейти в режим ввода текста"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Перейти к следующему месяцу"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Перейти к предыдущему месяцу"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Перейти к выбору года"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Выберите дату"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Сегодня"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Отображаемый выбор года"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Указан недопустимый диапазон дат."</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Введите даты"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"День в диапазоне дат"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Конечная дата"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Прокрутите до следующего месяца"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Прокрутите до предыдущего месяца"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Начальная дата"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Выберите даты"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Диалоговое окно"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Свернуто"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Развернуто"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Показать или скрыть раскрывающееся меню"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Строка поиска"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Закрыть"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Подсказки показаны ниже"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Часы"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d ч."</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Выбрать час"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d ч."</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"часы"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Минуты"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Выберите минуты"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d мин."</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"минуты"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Выбрать AM (до полудня) или PM (после полудня)"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Показать подсказку"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Подсказка"</string>
+    <string name="maintainer_and_developer">Сопровождающий и разработчик</string>
+    <string name="manifest_label_share">Отправить на устройство</string>
+    <string name="mark_as_read_label">ПОМЕТИТЬ КАК ПРОЧИТАННОЕ</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_24h_suffix">%1$s ч.</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="maxim_leshchenko_task">Улучшения интерфейса и страница «О программе\"</string>
+    <string name="message_reply_label">ОТВЕТИТЬ</string>
+    <string name="middle_click">Послать нажатие средней кнопки</string>
+    <string name="mouse_receiver_plugin_description">Получать движения удалённой мыши</string>
+    <string name="mouse_receiver_plugin_name">Инструмент получения движений мыши</string>
+    <string name="mousepad_acceleration_profile_settings_title">Настройка ускорения курсора</string>
+    <string name="mousepad_double_tap_settings_title">Действие при касании двумя пальцами</string>
+    <string name="mousepad_keyboard_input_not_supported">Ввод с клавиатуры не поддерживается сопряжённым устройством</string>
+    <string name="mousepad_scroll_direction_title">Инвертировать направление прокрутки</string>
+    <string name="mousepad_sensitivity_settings_title">Чувствительность сенсорной панели</string>
+    <string name="mousepad_single_tap_settings_title">Действие при касании одним пальцем</string>
+    <string name="mousepad_triple_tap_settings_title">Действие при касании тремя пальцами</string>
+    <string name="mpris_coverart_description">Обложка воспроизводимого файла</string>
+    <string name="mpris_ff">Вперёд</string>
+    <string name="mpris_loop">Повторять</string>
+    <string name="mpris_next">Следующая</string>
+    <string name="mpris_notification_settings_summary">Разрешить управление воспроизведением при закрытом Zorin Connect</string>
+    <string name="mpris_notification_settings_title">Показывать уведомления об управлении воспроизведением</string>
+    <string name="mpris_open_url">Продолжить воспроизведения отсюда</string>
+    <string name="mpris_pause">Приостановить</string>
+    <string name="mpris_play">Воспроизведение</string>
+    <string name="mpris_previous">Предыдущая</string>
+    <string name="mpris_rew">Назад</string>
+    <string name="mpris_shuffle">Перемешать</string>
+    <string name="mpris_stop">Остановить текущее воспроизведение</string>
+    <string name="mpris_time_settings_summary">Настройка шага перемотки при нажатии кнопок вперёд или назад</string>
+    <string name="mpris_time_settings_title">Кнопки вперёд/назад</string>
+    <string name="mpris_volume">Громкость</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_checkbox_state_description_checked">Флажок установлен.</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Флажки установлены частично.</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Флажок не установлен.</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_range_selection">Выбранная дата начала: %1$s. Выбранная дата окончания: %2$s.</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">нет</string>
+    <string name="mtrl_picker_cancel">Отмена</string>
+    <string name="mtrl_picker_confirm">ОК</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Дата окончания: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Перейти к текущему году: %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$d году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_start_date_description">Дата начала: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_today_description">Сегодня: %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к Календарю</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы выбрать год</string>
+    <string name="mtrl_timepicker_cancel">Отмена</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
+    <string name="mute">Выключить звук</string>
+    <string name="my_device_fingerprint">Отпечаток SHA-1 сертификата данного устройства:</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Меню навигации"</string>
+    <string name="no_app_for_opening">Для открытия этого файла нет подходящих приложений</string>
+    <string name="no_file_browser">Просмотрщики файлов не установлены</string>
+    <string name="no_permission_mprisreceiver">Чтобы управлять мультимедийными проигрывателями, необходимо разрешить доступ к уведомлениям</string>
+    <string name="no_permissions">Разрешите доступ к уведомлениям</string>
+    <string name="no_permissions_remotekeyboard">Чтобы получать нажатия клавиш, необходимо включить удалённую клавиатуру Zorin Connect.</string>
+    <string name="no_players_connected">Медиапроигрывателей не найдено</string>
+    <string name="no_wifi">Устройства могут быть недоступны, так как отсутствует подключение к сети Wi-Fi. Нажмите здесь для включения Wi-Fi.</string>
+    <string msgid="6610465462668679431" name="not_selected">"Не выбрано"</string>
+    <string msgid="6573031135582639649" name="not_set">"Не указано"</string>
+    <string name="notification_channel_default">Прочие уведомления</string>
+    <string name="notification_channel_high_priority">Высокий приоритет</string>
+    <string name="notification_channel_media_control">Управление воспроизведением</string>
+    <string name="notification_channel_persistent">Постоянное уведомление</string>
+    <string name="notification_channel_receivenotification">Уведомления с других устройств</string>
+    <string name="ok">ОК</string>
+    <string name="on_non_trusted_message">Сеть не является доверенной: автообнаружение отключено.</string>
+    <string name="open">Открыть</string>
+    <string name="open_compose_send">Написание текста</string>
+    <string name="open_mousepad">Удалённый ввод</string>
+    <string name="open_mpris_controls">Управление воспроизведением</string>
+    <string name="open_settings">Настроить</string>
+    <string name="optional_permission_explanation">Для включения всех функций необходимо предоставить дополнительные разрешения</string>
+    <string name="pair_new_device">Создать сопряжение с новым устройством</string>
+    <string name="pair_requested">Запрошено сопряжение</string>
+    <string name="pairing_accept">Принять</string>
+    <string name="pairing_description">Здесь появятся другие устройства в этой же сети, на которых запущен Zorin Connect.</string>
+    <string name="pairing_reject">Отклонить</string>
+    <string name="pairing_title">Устройства с Zorin Connect</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="permission_explanation">Этому модулю нужны разрешения для работы</string>
+    <string name="plugin_settings_with_name">Параметры %s</string>
+    <string name="plugins_need_optional_permission">Некоторые функции модулей отключены из-за отсутствия необходимых разрешений (коснитесь для просмотра подробностей):</string>
+    <string name="plugins_need_permission">Некоторым модулям нужны разрешения для работы (коснитесь для просмотра подробностей):</string>
+    <string name="pref_plugin_battery">Сведения о состоянии батареи</string>
+    <string name="pref_plugin_battery_desc">Периодически сообщать о состоянии батареи</string>
+    <string name="pref_plugin_bigscreen">Удалённый Bigscreen</string>
+    <string name="pref_plugin_bigscreen_desc">Использовать это устройство как удалённое для Plasma Bigscreen</string>
+    <string name="pref_plugin_clipboard">Синхронизация буфера обмена</string>
+    <string name="pref_plugin_clipboard_desc">Общий буфер обмена</string>
+    <string name="pref_plugin_clipboard_sent">Буфер обмена передан</string>
+    <string name="pref_plugin_connectivity_report">Сведения о возможности подключения</string>
+    <string name="pref_plugin_connectivity_report_desc">Сведения о силе и статусе сигнала</string>
+    <string name="pref_plugin_contacts">Синхронизация контактов</string>
+    <string name="pref_plugin_contacts_desc">Разрешить синхронизацию адресной книги устройства</string>
+    <string name="pref_plugin_findremotedevice">Найти удалённое устройство</string>
+    <string name="pref_plugin_findremotedevice_desc">Позвонить на удалённое устройство</string>
+    <string name="pref_plugin_mousepad">Удалённый ввод</string>
+    <string name="pref_plugin_mousepad_desc">Использование телефона или планшета в качестве сенсорной панели и клавиатуры</string>
+    <string name="pref_plugin_mousepad_send_keystrokes">Послать в виде нажатий клавиш</string>
+    <string name="pref_plugin_mpris">Элементы управления мультимедия</string>
+    <string name="pref_plugin_mpris_desc">Предоставляет дистанционное управление медиапроигрывателем</string>
+    <string name="pref_plugin_mprisreceiver">Управление медиапроигрывателем</string>
+    <string name="pref_plugin_mprisreceiver_desc">Управление воспроизведением на телефоне с другого устройства</string>
+    <string name="pref_plugin_notifications">Синхронизация уведомлений</string>
+    <string name="pref_plugin_notifications_desc">Доступ к уведомлениям с других устройств</string>
+    <string name="pref_plugin_ping">Проверка связи</string>
+    <string name="pref_plugin_ping_desc">Отправка и получение тестовых запросов</string>
+    <string name="pref_plugin_presenter_desc">Использование телефона для смены слайдов презентации</string>
+    <string name="pref_plugin_receive_notifications">Получение уведомлений</string>
+    <string name="pref_plugin_receive_notifications_desc">Получение уведомлений с другого устройства и показ их на Android</string>
+    <string name="pref_plugin_remotekeyboard">Получение удалённых нажатий клавиш</string>
+    <string name="pref_plugin_remotekeyboard_desc">Получение нажатий клавиш с удалённых устройств</string>
+    <string name="pref_plugin_runcommand">Запуск команд</string>
+    <string name="pref_plugin_runcommand_desc">Удалённый запуск команд с телефона или планшета</string>
+    <string name="pref_plugin_sftp">Открыть доступ к файловой системе</string>
+    <string name="pref_plugin_sftp_desc">Позволяет удалённо просматривать файловую систему данного устройства</string>
+    <string name="pref_plugin_sharereceiver">Общие данные и приём данных</string>
+    <string name="pref_plugin_sharereceiver_desc">Общие файлы и адреса URL для устройств</string>
+    <string name="pref_plugin_systemvolume">Системная громкость</string>
+    <string name="pref_plugin_systemvolume_desc">Управление системной громкостью удалённого устройства</string>
+    <string name="pref_plugin_telepathy">Отправить SMS</string>
+    <string name="pref_plugin_telepathy_desc">Отправка SMS-сообщений с рабочего стола</string>
+    <string name="pref_plugin_telepathy_mms">Отправка MMS</string>
+    <string name="pref_plugin_telepathy_mms_desc">Чтобы иметь возможность посылать MMS с помощью Zorin Connect, нужно настроить его как приложение по умолчанию для отправки SMS.</string>
+    <string name="pref_plugin_telephony">События телефонии</string>
+    <string name="pref_plugin_telephony_desc">Посылать уведомления о входящих звонках</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
+    <string name="presenter_exit">Закончить слайд-шоу</string>
+    <string name="presenter_fullscreen">На весь экран</string>
+    <string name="presenter_lock_tip">Устройство можно заблокировать, и для перехода к предыдущему/следующему слайду использовать кнопки управления громкостью.</string>
+    <string name="presenter_pointer">Указатель</string>
+    <string name="privacy_options">Параметры конфиденциальности</string>
+    <string name="protocol_version_newer">Это устройство использует более новую версию протокола</string>
+    <string msgid="5941395253238309765" name="range_end">"Конец диапазона"</string>
+    <string msgid="7097486360902471446" name="range_start">"Начало диапазона"</string>
+    <string name="received_file_text">Коснитесь, чтобы открыть «%1s»</string>
+    <string name="refresh">Обновить</string>
+    <string name="remote_device_fingerprint">Отпечаток SHA-1 сертификата удалённого устройства:</string>
+    <string name="remote_keyboard_service">Удалённая клавиатура Zorin Connect</string>
+    <string name="remotekeyboard_connected">Соединение с удалённой клавиатурой активно</string>
+    <string name="remotekeyboard_editing_only_title">Обрабатывать удалённые нажатия только при редактировании</string>
+    <string name="remotekeyboard_multiple_connections">Подключено более одной удалённой клавиатуры, выберите устройство для настройки</string>
+    <string name="remotekeyboard_not_connected">Нет активного соединения с удалённой клавиатурой, создайте такое соединение в Zorin Connect</string>
+    <string name="report_bug">Сообщить об ошибке</string>
+    <string name="request_pairing">Запросить сопряжение</string>
+    <string name="right_click">Послать нажатие правой кнопки</string>
+    <string name="ring">Звонок</string>
+    <string name="rise_down">Прокрутить вниз</string>
+    <string name="rise_up">Прокрутить вверх</string>
+    <string name="runcommand_noruncommandplugin">На устройстве не задействован подключаемый модуль запуска команд</string>
+    <string name="runcommand_nosuchdevice">Нет такого устройства</string>
+    <string name="runcommand_notpaired">Устройство не сопряжено</string>
+    <string name="runcommand_notreachable">Устройство недоступно</string>
+    <string name="sad_ok">ОК :(</string>
+    <string name="saikrishna_arcot_task">Поддержка использования клавиатуры для удалённого ввода, исправления и улучшения</string>
+    <string name="samoilenko_yuri_task">Реализация поддержки протокола SFTP, исправления и улучшения</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="searchview_clear_text_content_description">Очистить текстовое поле</string>
+    <string name="searchview_navigation_content_description">Назад</string>
+    <string name="select_ringtone">Выбор мелодии</string>
+    <string msgid="6043586758067023" name="selected">"Выбрано"</string>
+    <string name="send_clipboard">Передать буфер обмена</string>
+    <string name="send_compose">Отправить</string>
+    <string name="send_files">Отправить файлы</string>
+    <string name="send_ping">Отправить тестовый сигнал</string>
+    <string name="sendkeystrokes_disabled_toast">Отсылка нажатий клавиш отключена: включите её в параметрах</string>
+    <string name="sendkeystrokes_pref_category_summary">Данный модуль позволяет другим приложениям делиться фрагментами текста в виде нажатий клавиш, которые будут затем посылаться на подключённый хост.</string>
+    <string name="sendkeystrokes_pref_category_title">Послать нажатия клавиш</string>
+    <string name="sendkeystrokes_pref_enabled">Включить отсылку нажатий клавиш</string>
+    <string name="sendkeystrokes_pref_enabled_summary">Ожидать передачу данных с типом mime «text/x-keystrokes»</string>
+    <string name="sendkeystrokes_safe_text_enabled">Немедленно отправить защищённый текст</string>
+    <string name="sendkeystrokes_safe_text_enabled_summary">Без подтверждения послать короткие строки только с цифрами</string>
+    <string name="sendkeystrokes_send_to">Куда посылать нажатия клавиш</string>
+    <string name="sendkeystrokes_sent_text">Передать %1$s на устройство %2$s</string>
+    <string name="sendkeystrokes_textbox_hint">Посылать нажатия клавиш на хост</string>
+    <string name="sendkeystrokes_wrong_data">Недопустимый тип mime, тип должен быть «text/x-keystrokes»</string>
+    <string name="set_default_sms_app_title">Отправка MMS</string>
+    <string name="set_group_message_as_mms_title">Отправка групповых MMS</string>
+    <string name="set_long_text_as_mms_title">Послать длинный текст в формате MMS</string>
+    <string name="set_privacy_options">Настройка параметров конфиденциальности</string>
+    <string name="setting_persistent_notification">Показывать постоянное уведомление</string>
+    <string name="setting_persistent_notification_description">Коснитесь, чтобы выключить/выключить в параметрах уведомлений</string>
+    <string name="setting_persistent_notification_oreo">Постоянное уведомление</string>
+    <string name="settings">Параметры</string>
+    <string name="settings_dark_mode">Тёмное оформление</string>
+    <string name="settings_icon_description">Значок параметров</string>
+    <string name="settings_more_settings_text">Параметры для каждого из устройств можно найти на устройствах в разделе «Параметры модулей»</string>
+    <string name="settings_more_settings_title">Дополнительные параметры</string>
+    <string name="settings_rename">Имя устройства</string>
+    <string name="sftp_action_mode_menu_delete">Удалить</string>
+    <string name="sftp_no_storage_locations_configured">Нет настроенных хранилищ</string>
+    <string name="sftp_preference_add_storage_location_title">Добавить местоположение хранилища</string>
+    <string name="sftp_preference_configured_storage_locations">Настроенные местоположения хранилищ</string>
+    <string name="sftp_preference_edit_storage_location">Изменить местоположение хранилища</string>
+    <string name="sftp_saf_permission_explanation">Для удалённого доступа к файлам необходимо настроить местоположения хранилищ</string>
+    <string name="sftp_storage_preference_click_to_select">нажмите для выбора</string>
+    <string name="sftp_storage_preference_display_name">Отображаемое имя</string>
+    <string name="sftp_storage_preference_display_name_already_used">Это отображаемое имя уже используется</string>
+    <string name="sftp_storage_preference_display_name_cannot_be_empty">Отображаемое имя не может быть пустым</string>
+    <string name="sftp_storage_preference_storage_location">Местоположение хранилища</string>
+    <string name="sftp_storage_preference_storage_location_already_configured">Это местоположение уже было настроено</string>
+    <string name="share">Совместное использование</string>
+    <string name="share_destination_customize">Задать целевой каталог</string>
+    <string name="share_destination_customize_summary_disabled">Полученные файлы появятся в каталоге «Загрузки»</string>
+    <string name="share_destination_customize_summary_enabled">Файлы будут сохранены в указанном ниже каталоге</string>
+    <string name="share_destination_folder_preference">Целевой каталог</string>
+    <string name="share_notification_preference">«Шумные» уведомления</string>
+    <string name="share_notification_preference_summary">При получении файла вибрировать и издавать звуковой сигнал</string>
+    <string name="share_received_file">Совместное использование «%s»</string>
+    <string name="shareplugin_text_saved">Получен текст, он сохранен в буфер обмена</string>
+    <string name="show_keyboard">Показать клавиатуру</string>
+    <string name="show_notification_if_screen_off">Только при выключенном экране</string>
+    <string name="side_sheet_accessibility_pane_title">Боковая панель</string>
+    <string name="source_code">Исходный код</string>
+    <string msgid="4139871816613051306" name="state_empty">"Пусто"</string>
+    <string msgid="5834637030682409883" name="state_off">"Отключено"</string>
+    <string msgid="1490883874751719580" name="state_on">"Включено"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Переключатель"</string>
+    <string msgid="1672349317127674378" name="tab">"Вкладка"</string>
+    <string name="tap_to_answer">Коснитесь, чтобы ответить</string>
+    <string name="tap_to_execute">Коснитесь, чтобы выполнить действие</string>
+    <string name="tap_to_open">Коснитесь, чтобы открыть</string>
+    <string name="telepathy_permission_explanation">Чтобы просматривать и отправлять SMS с рабочего стола, необходимо дать разрешение на доступ к SMS</string>
+    <string name="telephony_optional_permission_explanation">Чтобы видеть имя контакта вместо номера телефона, необходимо предоставить доступ к контактам</string>
+    <string name="telephony_permission_explanation">Чтобы видеть телефонные звонки на рабобчем столе, необходимо дать разрешение на доступ к журналу звонков и состоянию телефона</string>
+    <string name="telephony_pref_blocked_dialog_desc">Не показывать звонки и СМС с этих номеров. Каждый номер с новой строки.</string>
+    <string name="telephony_pref_blocked_title">Заблокированные номера</string>
+    <string msgid="5946805113151406391" name="template_percent">"Процентов: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+    <string name="thanks_to">Благодарности</string>
+    <string name="theme_dialog_title">Выбрать тему оформления</string>
+    <string name="title_activity_notification_filter">Фильтр уведомлений</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"Подсказка"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"Показать подсказку"</string>
+    <string name="trusted_networks">Доверенные сети</string>
+    <string name="trusted_networks_desc">Использовать автоматическое обнаружение только в доверенных сетях</string>
+    <string name="undo">Отменить действие</string>
+    <string name="unknown_device">Неизвестное устройство</string>
+    <string name="unreachable_description">Это сопряжённое устройство недоступно. Проверьте, подключено ли оно к этой же локальной сети.</string>
+    <string name="user_display_name">Вы</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ВКЛ."</string>
+    <string name="version">Версия %s</string>
+    <string name="view_status_title">Состояние</string>
+    <string name="visit_contributors_homepage">Посетить домашнюю страницу участника:\n%s</string>
+    <string name="website">Веб-сайт</string>
+</resources>

@@ -4,7 +4,7 @@
             "outputFile": "com.zorinos.zorin_connect-mergeDebugResources-71:/values-tg/values-tg.xml",
             "map": [
                 {
-                    "source": "/home/woolly/Desktop/Woolly-Wink/android-part/zorin-connect-android/res/values-tg/strings.xml",
+                    "source": "/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/res/values-tg/strings.xml",
                     "from": {
                         "startLines": "33,18,11,5,26,40,45,4,3,2",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2",

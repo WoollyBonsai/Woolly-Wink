@@ -48,11 +48,11 @@ fun String.runCommand(
 
 android {
     namespace = "com.zorinos.zorin_connect"
-    compileSdk = 35
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.zorinos.zorin_connect"
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 13302
         versionName = "1.33.2"
         proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")

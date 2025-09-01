@@ -1,0 +1,1016 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3SPDX-FileCopyrightText: 2023 Albert Vaca Cintora <albertvaka@gmail.com>
+4
+5SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+6-->
+7<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+8    package="com.zorinos.zorin_connect"
+9    android:versionCode="13302"
+10    android:versionName="1.33.2" >
+11
+12    <uses-sdk
+13        android:minSdkVersion="21"
+14        android:targetSdkVersion="35" />
+15
+16    <uses-feature
+16-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:12:5-14:36
+17        android:name="android.hardware.telephony"
+17-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:13:9-50
+18        android:required="false" />
+18-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:14:9-33
+19    <uses-feature
+19-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:15:5-17:36
+20        android:name="android.hardware.touchscreen"
+20-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:16:9-52
+21        android:required="false" />
+21-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:17:9-33
+22    <uses-feature
+22-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:18:5-20:36
+23        android:name="android.software.leanback"
+23-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:19:9-49
+24        android:required="false" />
+24-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:20:9-33
+25    <uses-feature
+25-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:21:5-23:36
+26        android:name="android.hardware.bluetooth"
+26-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:22:9-50
+27        android:required="false" />
+27-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:23:9-33
+28    <uses-feature
+28-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:24:5-26:36
+29        android:name="android.hardware.location.gps"
+29-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:25:9-53
+30        android:required="false" />
+30-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:26:9-33
+31    <uses-feature
+31-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:27:5-29:36
+32        android:name="android.hardware.microphone"
+32-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:28:9-51
+33        android:required="false" />
+33-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:29:9-33
+34
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:31:5-81
+35-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:31:22-78
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:32:5-67
+36-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:32:22-64
+37    <uses-permission
+37-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:33:5-95
+38        android:name="android.permission.BLUETOOTH"
+38-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:33:22-65
+39        android:maxSdkVersion="30" />
+39-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:33:66-92
+40    <uses-permission
+40-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:34:5-101
+41        android:name="android.permission.BLUETOOTH_ADMIN"
+41-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:34:22-71
+42        android:maxSdkVersion="30" />
+42-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:34:72-98
+43    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+43-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:35:5-76
+43-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:35:22-73
+44    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+44-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:36:5-73
+44-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:36:22-70
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+45-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:37:5-79
+45-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:37:22-76
+46    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+46-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:38:5-79
+46-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:38:22-76
+47    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+47-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:39:5-76
+47-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:39:22-73
+48    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+48-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:40:5-76
+48-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:40:22-73
+49    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+49-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:41:5-86
+49-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:41:22-83
+50    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+50-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:42:5-75
+50-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:42:22-72
+51    <uses-permission android:name="android.permission.READ_CONTACTS" />
+51-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:43:5-72
+51-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:43:22-69
+52    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+52-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:44:5-80
+52-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:44:22-77
+53    <uses-permission android:name="android.permission.VIBRATE" />
+53-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:45:5-66
+53-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:45:22-63
+54    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:46:5-81
+54-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:46:22-78
+55    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+55-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:47:5-88
+55-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:47:22-85
+56    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+56-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:48:5-77
+56-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:48:22-74
+57    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+57-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:49:5-72
+57-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:49:22-69
+58    <uses-permission android:name="android.permission.SEND_SMS" />
+58-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:50:5-67
+58-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:50:22-64
+59    <uses-permission android:name="android.permission.READ_SMS" />
+59-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:51:5-67
+59-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:51:22-64
+60    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+60-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:52:5-70
+60-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:52:22-67
+61    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+61-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:53:5-70
+61-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:53:22-67
+62    <uses-permission android:name="android.permission.WAKE_LOCK" />
+62-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:54:5-68
+62-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:54:22-65
+63    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+63-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:55:5-83
+63-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:55:22-80
+64    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+64-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:56:5-81
+64-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:56:22-78
+65    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+65-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:57:5-81
+65-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:57:22-78
+66    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+66-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:58:5-79
+66-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:58:22-76
+67    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+67-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:59:5-71
+67-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:59:22-68
+68    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+68-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:60:5-119
+68-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:60:22-74
+69    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+69-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:61:5-85
+69-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:61:22-82
+70    <uses-permission android:name="android.permission.READ_LOGS" />
+70-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:62:5-104
+70-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:62:22-65
+71    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+71-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:63:5-78
+71-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:63:22-75
+72    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+72-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:64:5-94
+72-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:64:22-91
+73    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+73-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:65:5-111
+73-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:65:22-79
+74    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+74-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:66:5-77
+74-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:66:22-74
+75
+76    <permission
+76-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+77        android:name="com.zorinos.zorin_connect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+77-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+78        android:protectionLevel="signature" />
+78-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+79
+80    <uses-permission android:name="com.zorinos.zorin_connect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+80-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+80-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+81
+82    <application
+82-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:68:5-460:19
+83        android:name="org.kde.kdeconnect.KdeConnect"
+83-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:78:9-53
+84        android:allowBackup="false"
+84-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:74:9-36
+85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+85-->[androidx.core:core:1.15.0] /home/woolly/.gradle/caches/8.11.1/transforms/c6674294eb62122c59bf6ef12f290783/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+86        android:banner="@mipmap/ic_launcher_banner"
+86-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:72:9-52
+87        android:dataExtractionRules="@xml/data_extraction_rules"
+87-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:75:9-65
+88        android:enableOnBackInvokedCallback="true"
+88-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:79:9-51
+89        android:extractNativeLibs="true"
+90        android:icon="@mipmap/ic_launcher"
+90-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:69:9-43
+91        android:label="@string/kde_connect"
+91-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:71:9-44
+92        android:localeConfig="@xml/_generated_res_locale_config"
+93        android:networkSecurityConfig="@xml/network_security_config"
+93-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:76:9-69
+94        android:requestLegacyExternalStorage="true"
+94-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:80:9-52
+95        android:roundIcon="@mipmap/ic_launcher_round"
+95-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:70:9-54
+96        android:supportsRtl="true"
+96-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:73:9-35
+97        android:theme="@style/KdeConnectTheme.NoActionBar" > <!-- requestLegacyExternalStorage is only used in Android 10: https://developer.android.com/training/data-storage/use-cases#opt-out-in-production-app -->
+97-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:77:9-59
+98
+99        <receiver
+99-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:83:9-92:20
+100            android:name="com.android.mms.transaction.PushReceiver"
+100-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:84:13-68
+101            android:exported="true"
+101-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:85:13-36
+102            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+102-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:86:13-71
+103            <intent-filter>
+103-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:87:13-91:29
+104                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+104-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:88:17-86
+104-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:88:25-83
+105
+106                <data android:mimeType="application/vnd.wap.mms-message" />
+106-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:17-76
+106-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:23-73
+107            </intent-filter>
+108        </receiver>
+109
+110        <service
+110-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:94:9-97:39
+111            android:name="com.android.mms.transaction.TransactionService"
+111-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:95:13-74
+112            android:enabled="true"
+112-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:96:13-35
+113            android:exported="true" />
+113-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:97:13-36
+114        <service
+114-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:99:9-103:38
+115            android:name="org.kde.kdeconnect.BackgroundService"
+115-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:100:13-64
+116            android:enabled="true"
+116-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:103:13-35
+117            android:foregroundServiceType="connectedDevice|mediaProjection"
+117-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:101:13-76
+118            android:icon="@drawable/icon" />
+118-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:102:13-42
+119        <service
+119-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:104:9-116:19
+120            android:name="org.kde.kdeconnect.Plugins.RemoteKeyboardPlugin.RemoteKeyboardService"
+120-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:105:13-97
+121            android:exported="true"
+121-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:107:13-36
+122            android:label="@string/remote_keyboard_service"
+122-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:106:13-60
+123            android:permission="android.permission.BIND_INPUT_METHOD" >
+123-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:108:13-70
+124            <intent-filter>
+124-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:109:13-111:29
+125                <action android:name="android.view.InputMethod" />
+125-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:110:17-67
+125-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:110:25-64
+126            </intent-filter>
+127
+128            <meta-data
+128-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:113:13-115:71
+129                android:name="android.view.im"
+129-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:114:17-47
+130                android:resource="@xml/remotekeyboardplugin_method" />
+130-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:115:17-68
+131        </service>
+132
+133        <activity
+133-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:118:9-135:20
+134            android:name="org.kde.kdeconnect.UserInterface.MainActivity"
+134-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:119:13-73
+135            android:exported="true" >
+135-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:120:13-36
+136            <intent-filter>
+136-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:121:13-125:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:122:17-69
+137-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:122:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:124:17-77
+139-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:124:27-74
+140            </intent-filter>
+141            <intent-filter>
+141-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:126:13-128:29
+142                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+142-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:127:17-98
+142-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:127:25-96
+143            </intent-filter>
+144            <intent-filter>
+144-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:129:13-131:29
+145                <action android:name="android.intent.action.MAIN" />
+145-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:122:17-69
+145-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:122:25-66
+146            </intent-filter>
+147
+148            <meta-data
+148-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:133:13-134:53
+149                android:name="android.app.shortcuts"
+149-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:133:24-60
+150                android:resource="@xml/shortcuts" />
+150-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:134:17-50
+151        </activity>
+152        <activity
+152-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:136:9-144:20
+153            android:name="org.kde.kdeconnect.UserInterface.PluginSettingsActivity"
+153-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:137:13-83
+154            android:exported="false"
+154-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:139:13-37
+155            android:label="@string/device_menu_plugins"
+155-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:138:13-56
+156            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+156-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:140:13-87
+157            <meta-data
+157-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+158                android:name="android.support.PARENT_ACTIVITY"
+158-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+159                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+159-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+160        </activity>
+161        <activity
+161-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:145:9-153:20
+162            android:name="org.kde.kdeconnect.UserInterface.CustomDevicesActivity"
+162-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:146:13-82
+163            android:exported="false"
+163-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:148:13-37
+164            android:label="@string/custom_devices_settings"
+164-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:147:13-60
+165            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+165-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:149:13-87
+166            <meta-data
+166-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+167                android:name="android.support.PARENT_ACTIVITY"
+167-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+168                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+168-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+169        </activity>
+170        <activity
+170-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:154:9-162:20
+171            android:name="org.kde.kdeconnect.Plugins.SharePlugin.SendFileActivity"
+171-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:155:13-83
+172            android:exported="true"
+172-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:157:13-36
+173            android:label="Zorin Connect"
+173-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:156:13-42
+174            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+174-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:158:13-87
+175            <meta-data
+175-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+176                android:name="android.support.PARENT_ACTIVITY"
+176-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+177                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+177-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+178        </activity>
+179
+180        <receiver
+180-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:164:9-178:20
+181            android:name="org.kde.kdeconnect.KdeConnectBroadcastReceiver"
+181-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:164:19-80
+182            android:exported="true" >
+182-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:165:13-36
+183            <intent-filter>
+183-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:166:13-168:29
+184                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+184-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:167:17-83
+184-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:167:25-81
+185            </intent-filter>
+186            <intent-filter>
+186-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:169:13-171:29
+187                <action android:name="android.intent.action.BOOT_COMPLETED" />
+187-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:170:17-79
+187-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:170:25-76
+188            </intent-filter>
+189            <intent-filter>
+189-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:172:13-174:29
+190                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+190-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:173:17-79
+190-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:173:25-76
+191            </intent-filter>
+192            <intent-filter>
+192-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:175:13-177:29
+193                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+193-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:176:17-78
+193-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:176:25-75
+194            </intent-filter>
+195        </receiver>
+196
+197        <activity
+197-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:180:9-185:51
+198            android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneActivity"
+198-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:181:13-92
+199            android:configChanges="orientation|screenSize"
+199-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:182:13-59
+200            android:excludeFromRecents="true"
+200-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:183:13-46
+201            android:label="@string/findmyphone_title"
+201-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:184:13-54
+202            android:launchMode="singleInstance" />
+202-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:185:13-48
+203
+204        <receiver
+204-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:187:9-192:20
+205            android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneReceiver"
+205-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:187:19-98
+206            android:exported="true" >
+206-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:188:13-36
+207            <intent-filter>
+207-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:189:13-191:29
+208                <action android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.foundIt" />
+208-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:190:17-95
+208-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:190:25-92
+209            </intent-filter>
+210        </receiver>
+211
+212        <!-- Plugin-related activities and services -->
+213
+214        <activity
+214-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:196:9-199:48
+215            android:name="org.kde.kdeconnect.Plugins.ClibpoardPlugin.ClipboardFloatingActivity"
+215-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:197:13-96
+216            android:excludeFromRecents="true"
+216-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:199:13-46
+217            android:theme="@style/Theme.Transparent" />
+217-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:198:13-53
+218        <activity
+218-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:201:9-209:20
+219            android:name="org.kde.kdeconnect.Plugins.MprisPlugin.MprisActivity"
+219-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:202:13-80
+220            android:label="@string/open_mpris_controls"
+220-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:203:13-56
+221            android:launchMode="singleTop"
+221-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:204:13-43
+222            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+222-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:205:13-87
+223            <meta-data
+223-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+224                android:name="android.support.PARENT_ACTIVITY"
+224-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+225                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+225-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+226        </activity>
+227
+228        <receiver
+228-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:211:9-216:20
+229            android:name="org.kde.kdeconnect.Plugins.MprisPlugin.MprisMediaNotificationReceiver"
+229-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:211:19-103
+230            android:exported="true" >
+230-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:212:13-36
+231            <intent-filter>
+231-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:213:13-215:29
+232                <action android:name="android.intent.action.MEDIA_BUTTON" />
+232-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:214:17-77
+232-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:214:25-74
+233            </intent-filter>
+234        </receiver>
+235
+236        <activity
+236-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:218:9-226:20
+237            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandActivity"
+237-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:219:13-90
+238            android:exported="false"
+238-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:221:13-37
+239            android:label="@string/pref_plugin_runcommand"
+239-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:220:13-59
+240            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+240-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:222:13-87
+241            <meta-data
+241-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+242                android:name="android.support.PARENT_ACTIVITY"
+242-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+243                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+243-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+244        </activity>
+245        <activity
+245-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:227:9-233:47
+246            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetConfigActivity"
+246-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:228:13-102
+247            android:excludeFromRecents="true"
+247-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:229:13-46
+248            android:label="@string/pref_plugin_runcommand"
+248-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:230:13-59
+249            android:launchMode="singleTask"
+249-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:231:13-44
+250            android:noHistory="true"
+250-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:232:13-37
+251            android:screenOrientation="user" />
+251-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:233:13-45
+252
+253        <service
+253-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:235:9-238:72
+254            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.CommandsRemoteViewsService"
+254-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:236:13-98
+255            android:exported="false"
+255-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:237:13-37
+256            android:permission="android.permission.BIND_REMOTEVIEWS" />
+256-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:238:13-69
+257
+258        <receiver
+258-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:240:9-254:20
+259            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetProvider"
+259-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:241:13-96
+260            android:exported="true"
+260-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:243:13-36
+261            android:label="@string/pref_plugin_runcommand" >
+261-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:242:13-59
+262            <intent-filter>
+262-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:244:13-246:29
+263                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+263-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:245:17-84
+263-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:245:25-81
+264            </intent-filter>
+265            <intent-filter>
+265-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:247:13-249:29
+266                <action android:name="RUN_COMMAND_ACTION" />
+266-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:248:17-61
+266-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:248:25-58
+267            </intent-filter>
+268
+269            <meta-data
+269-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:251:13-253:70
+270                android:name="android.appwidget.provider"
+270-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:252:17-58
+271                android:resource="@xml/remotecommandplugin_widget" />
+271-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:253:17-67
+272        </receiver>
+273
+274        <activity
+274-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:256:9-269:20
+275            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandUrlActivity"
+275-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:256:19-99
+276            android:exported="true" >
+276-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:257:13-36
+277            <intent-filter>
+277-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:258:13-268:29
+278                <action android:name="android.intent.action.VIEW" />
+278-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:259:17-69
+278-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:259:25-66
+279                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+279-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:260:17-77
+279-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:260:25-74
+280
+281                <category android:name="android.intent.category.DEFAULT" />
+281-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:17-76
+281-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:27-73
+282                <category android:name="android.intent.category.BROWSABLE" />
+282-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:263:17-78
+282-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:263:27-75
+283
+284                <data
+284-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:17-76
+285                    android:host="runcommand"
+285-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:266:21-46
+286                    android:scheme="zorinconnect" />
+286-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:267:21-50
+287            </intent-filter>
+288        </activity>
+289        <activity
+289-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:270:9-280:20
+290            android:name="org.kde.kdeconnect.Plugins.BigscreenPlugin.BigscreenActivity"
+290-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:271:13-88
+291            android:configChanges="orientation|keyboardHidden|screenSize"
+291-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:272:13-74
+292            android:exported="true"
+292-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:274:13-36
+293            android:label="@string/pref_plugin_bigscreen"
+293-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:273:13-58
+294            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+294-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:275:13-87
+295            android:windowSoftInputMode="stateHidden|adjustResize" >
+295-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:276:13-67
+296            <meta-data
+296-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+297                android:name="android.support.PARENT_ACTIVITY"
+297-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+298                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+298-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+299        </activity>
+300        <activity
+300-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:281:9-290:20
+301            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity"
+301-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:282:13-86
+302            android:exported="false"
+302-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:284:13-37
+303            android:label="@string/pref_plugin_mousepad"
+303-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:283:13-57
+304            android:launchMode="singleTop"
+304-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:285:13-43
+305            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+305-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:286:13-87
+306            <meta-data
+306-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+307                android:name="android.support.PARENT_ACTIVITY"
+307-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+308                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+308-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+309        </activity>
+310        <activity
+310-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:291:9-300:20
+311            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.ComposeSendActivity"
+311-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:292:13-89
+312            android:exported="false"
+312-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:294:13-37
+313            android:label="@string/compose_send_title"
+313-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:293:13-55
+314            android:parentActivityName="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity"
+314-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:295:13-100
+315            android:windowSoftInputMode="adjustResize" >
+315-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:296:13-55
+316            <meta-data
+316-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+317                android:name="android.support.PARENT_ACTIVITY"
+317-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+318                android:value="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity" />
+318-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+319        </activity>
+320        <activity
+320-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:301:9-315:20
+321            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.SendKeystrokesToHostActivity"
+321-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:302:13-98
+322            android:exported="true"
+322-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:304:13-36
+323            android:label="@string/pref_plugin_mousepad_send_keystrokes"
+323-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:303:13-73
+324            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+324-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:305:13-87
+325            <meta-data
+325-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+326                android:name="android.support.PARENT_ACTIVITY"
+326-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+327                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+327-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+328            <!-- Accept data with "text/x-keystrokes" to send the text to the connected host and emulate keystrokes -->
+329            <intent-filter>
+329-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:310:13-314:29
+330                <action android:name="android.intent.action.SEND" />
+330-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:311:17-68
+330-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:311:25-66
+331
+332                <category android:name="android.intent.category.DEFAULT" />
+332-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:17-76
+332-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:27-73
+333
+334                <data android:mimeType="text/x-keystrokes" />
+334-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:17-76
+334-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:23-73
+335            </intent-filter>
+336        </activity>
+337        <activity
+337-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:316:9-326:20
+338            android:name="org.kde.kdeconnect.Plugins.PresenterPlugin.PresenterActivity"
+338-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:317:13-88
+339            android:configChanges="orientation|keyboardHidden|screenSize"
+339-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:318:13-74
+340            android:exported="false"
+340-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:320:13-37
+341            android:label="@string/pref_plugin_presenter"
+341-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:319:13-58
+342            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+342-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:321:13-87
+343            android:windowSoftInputMode="stateHidden|adjustResize" >
+343-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:322:13-67
+344            <meta-data
+344-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+345                android:name="android.support.PARENT_ACTIVITY"
+345-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+346                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+346-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+347        </activity>
+348        <activity
+348-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:327:9-349:20
+349            android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareActivity"
+349-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:328:13-80
+350            android:exported="true"
+350-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:329:13-36
+351            android:label="@string/manifest_label_share" >
+351-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:330:13-57
+352            <intent-filter>
+352-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:331:13-337:29
+353                <action android:name="android.intent.action.SEND" />
+353-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:311:17-68
+353-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:311:25-66
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:17-76
+355-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:27-73
+356
+357                <data android:mimeType="*/*" />
+357-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:17-76
+357-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:23-73
+358            </intent-filter>
+359            <intent-filter>
+359-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:338:13-344:29
+360                <action android:name="android.intent.action.SEND_MULTIPLE" />
+360-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:339:17-78
+360-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:339:25-75
+361
+362                <category android:name="android.intent.category.DEFAULT" />
+362-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:17-76
+362-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:262:27-73
+363
+364                <data android:mimeType="*/*" />
+364-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:17-76
+364-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:90:23-73
+365            </intent-filter>
+366
+367            <meta-data
+367-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:346:13-348:100
+368                android:name="android.service.chooser.chooser_target_service"
+368-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:347:17-78
+369                android:value="org.kde.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService" />
+369-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:348:17-97
+370        </activity>
+371
+372        <receiver
+372-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:351:9-356:20
+373            android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareBroadcastReceiver"
+373-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:351:19-95
+374            android:exported="true" >
+374-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:352:13-36
+375            <intent-filter>
+375-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:353:13-355:29
+376                <action android:name="org.kde.kdeconnect.Plugins.SharePlugin.CancelShare" />
+376-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:354:17-93
+376-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:354:25-90
+377            </intent-filter>
+378        </receiver>
+379
+380        <provider
+381            android:name="androidx.core.content.FileProvider"
+381-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:359:13-62
+382            android:authorities="com.zorinos.zorin_connect.fileprovider"
+382-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:360:13-64
+383            android:exported="false"
+383-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:361:13-37
+384            android:grantUriPermissions="true" >
+384-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:362:13-47
+385            <meta-data
+385-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:363:13-365:62
+386                android:name="android.support.FILE_PROVIDER_PATHS"
+386-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:364:17-67
+387                android:resource="@xml/fileprovider_paths" />
+387-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:365:17-59
+388        </provider>
+389
+390        <service
+390-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:368:9-375:19
+391            android:name="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver"
+391-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:369:13-95
+392            android:exported="true"
+392-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:370:13-36
+393            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+393-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:371:13-87
+394            <intent-filter>
+394-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:372:13-374:29
+395                <action android:name="android.service.notification.NotificationListenerService" />
+395-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:373:17-99
+395-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:373:25-96
+396            </intent-filter>
+397        </service>
+398        <service
+398-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:376:9-383:19
+399            android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService"
+399-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:377:13-92
+400            android:exported="true"
+400-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:378:13-36
+401            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+401-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:379:13-80
+402            <intent-filter>
+402-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:380:13-382:29
+403                <action android:name="android.service.chooser.ChooserTargetService" />
+403-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:381:17-87
+403-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:381:25-84
+404            </intent-filter>
+405        </service>
+406        <service
+406-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:384:9-394:19
+407            android:name="org.kde.kdeconnect.Plugins.MouseReceiverPlugin.MouseReceiverService"
+407-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:385:13-95
+408            android:exported="true"
+408-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:386:13-36
+409            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+409-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:387:13-79
+410            <intent-filter>
+410-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:388:13-390:29
+411                <action android:name="android.accessibilityservice.AccessibilityService" />
+411-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:389:17-92
+411-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:389:25-89
+412            </intent-filter>
+413
+414            <meta-data
+414-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:391:13-393:66
+415                android:name="android.accessibilityservice"
+415-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:392:17-60
+416                android:resource="@xml/mouse_receiver_service" />
+416-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:393:17-63
+417        </service>
+418
+419        <activity
+419-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:396:9-403:20
+420            android:name="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity"
+420-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:397:13-101
+421            android:label="@string/title_activity_notification_filter"
+421-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:398:13-71
+422            android:parentActivityName="org.kde.kdeconnect.UserInterface.PluginSettingsActivity" >
+422-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:399:13-97
+423            <meta-data
+423-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+424                android:name="android.support.PARENT_ACTIVITY"
+424-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+425                android:value="org.kde.kdeconnect.UserInterface.PluginSettingsActivity" />
+425-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+426        </activity>
+427        <activity
+427-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:405:9-412:20
+428            android:name="org.kde.kdeconnect.UserInterface.TrustedNetworksActivity"
+428-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:406:13-84
+429            android:label="@string/trusted_networks"
+429-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:407:13-53
+430            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+430-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:408:13-87
+431            <meta-data
+431-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+432                android:name="android.support.PARENT_ACTIVITY"
+432-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+433                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+433-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+434        </activity>
+435        <activity
+435-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:414:9-421:20
+436            android:name="org.kde.kdeconnect.UserInterface.About.EasterEggActivity"
+436-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:415:13-84
+437            android:label="@string/easter_egg"
+437-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:416:13-47
+438            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+438-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:417:13-87
+439            <meta-data
+439-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+440                android:name="android.support.PARENT_ACTIVITY"
+440-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+441                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+441-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+442        </activity>
+443        <activity
+443-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:423:9-430:20
+444            android:name="org.kde.kdeconnect.UserInterface.About.AboutKDEActivity"
+444-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:424:13-83
+445            android:label="@string/about_kde"
+445-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:425:13-46
+446            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+446-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:426:13-87
+447            <meta-data
+447-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+448                android:name="android.support.PARENT_ACTIVITY"
+448-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+449                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+449-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+450        </activity>
+451        <activity
+451-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:432:9-439:20
+452            android:name="org.kde.kdeconnect.UserInterface.About.LicensesActivity"
+452-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:433:13-83
+453            android:label="@string/licenses"
+453-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:434:13-45
+454            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity" >
+454-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:435:13-87
+455            <meta-data
+455-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:141:13-143:81
+456                android:name="android.support.PARENT_ACTIVITY"
+456-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:142:17-63
+457                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+457-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:143:17-78
+458        </activity>
+459
+460        <service
+460-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:441:9-450:19
+461            android:name="org.kde.kdeconnect.Plugins.ClibpoardPlugin.ClipboardTileService"
+461-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:442:13-91
+462            android:exported="true"
+462-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:444:13-36
+463            android:icon="@drawable/ic_baseline_content_paste_24"
+463-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:443:13-66
+464            android:label="@string/send_clipboard"
+464-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:445:13-51
+465            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+465-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:446:13-77
+466            <intent-filter>
+466-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:447:13-449:29
+467                <action android:name="android.service.quicksettings.action.QS_TILE" />
+467-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:448:17-87
+467-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:448:25-84
+468            </intent-filter>
+469        </service>
+470        <service
+470-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:452:9-459:19
+471            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandControlsProviderService"
+471-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:452:18-110
+472            android:exported="true"
+472-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:454:13-36
+473            android:label="@string/kde_connect"
+473-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:453:13-48
+474            android:permission="android.permission.BIND_CONTROLS" >
+474-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:455:13-66
+475            <intent-filter>
+475-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:456:13-458:29
+476                <action android:name="android.service.controls.ControlsProviderService" />
+476-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:457:17-91
+476-->/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/AndroidManifest.xml:457:25-88
+477            </intent-filter>
+478        </service>
+479
+480        <provider
+480-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+481            android:name="androidx.startup.InitializationProvider"
+481-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+482            android:authorities="com.zorinos.zorin_connect.androidx-startup"
+482-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+483            android:exported="false" >
+483-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+484            <meta-data
+484-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+485                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+485-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+486                android:value="androidx.startup" />
+486-->[androidx.emoji2:emoji2:1.3.0] /home/woolly/.gradle/caches/8.11.1/transforms/3891da1a8ba45a2695ea0144a99fbec0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+487            <meta-data
+487-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/woolly/.gradle/caches/8.11.1/transforms/35abcd8c392c794a4bd35cc51137fb8c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+488                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+488-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/woolly/.gradle/caches/8.11.1/transforms/35abcd8c392c794a4bd35cc51137fb8c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+489                android:value="androidx.startup" />
+489-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/woolly/.gradle/caches/8.11.1/transforms/35abcd8c392c794a4bd35cc51137fb8c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+490            <meta-data
+490-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+491                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+491-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+492                android:value="androidx.startup" />
+492-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+493        </provider>
+494
+495        <uses-library
+495-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+496            android:name="androidx.window.extensions"
+496-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+497            android:required="false" />
+497-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+498        <uses-library
+498-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+499            android:name="androidx.window.sidecar"
+499-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+500            android:required="false" />
+500-->[androidx.window:window:1.0.0] /home/woolly/.gradle/caches/8.11.1/transforms/d5cdefd037cdd9a490be9392e0d44bba/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+501
+502        <provider
+502-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:10:9-15:50
+503            android:name="com.klinker.android.send_message.MmsFileProvider"
+503-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:11:13-76
+504            android:authorities="com.zorinos.zorin_connect.MmsFileProvider"
+504-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:12:13-67
+505            android:enabled="true"
+505-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:13:13-35
+506            android:exported="false"
+506-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:14:13-37
+507            android:grantUriPermissions="true" />
+507-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:15:13-47
+508
+509        <uses-library
+509-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:17:9-19:40
+510            android:name="org.apache.http.legacy"
+510-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:18:13-50
+511            android:required="false" />
+511-->[org.kde.invent.sredman:android-smsmms:kdeconnect-1-21-0] /home/woolly/.gradle/caches/8.11.1/transforms/630d79a913838cc639cd61fb28306d67/transformed/android-smsmms-kdeconnect-1-21-0/AndroidManifest.xml:19:13-37
+512
+513        <receiver
+513-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+514            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+514-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+515            android:directBootAware="false"
+515-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+516            android:enabled="true"
+516-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+517            android:exported="true"
+517-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+518            android:permission="android.permission.DUMP" >
+518-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+519            <intent-filter>
+519-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+520                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+520-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+520-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+521            </intent-filter>
+522            <intent-filter>
+522-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+523                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+523-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+523-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+524            </intent-filter>
+525            <intent-filter>
+525-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+526                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+526-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+526-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+527            </intent-filter>
+528            <intent-filter>
+528-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+529                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+529-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+529-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/woolly/.gradle/caches/8.11.1/transforms/c01052a8035a9ecc200e0f1d75983b94/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+530            </intent-filter>
+531        </receiver>
+532    </application>
+533
+534</manifest>

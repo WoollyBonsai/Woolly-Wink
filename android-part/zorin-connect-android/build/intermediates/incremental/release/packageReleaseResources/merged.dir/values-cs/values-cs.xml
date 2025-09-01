@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="convert_to_mms_after_entries">
+    <item>Po jedné zprávě</item>
+    <item>Po dvou zprávách</item>
+    <item>Po třech zprávách</item>
+    <item>Po čtyřech zprávách</item>
+    <item>Po pěti zprávách</item>
+  </string-array>
+    <string-array name="mousepad_acceleration_profile_entries">
+    <item>Bez akcelerace</item>
+    <item>Nejslabší</item>
+    <item>Slabší</item>
+    <item>Střední</item>
+    <item>Silná</item>
+    <item>Nejsilnější</item>
+  </string-array>
+    <string-array name="mousepad_sensitivity_entries">
+    <item>Nejpomalejší</item>
+    <item>Méně pomalý</item>
+    <item>Výchozí</item>
+    <item>Rychlejší</item>
+    <item>Nejrychlejší</item>
+  </string-array>
+    <string-array name="mousepad_tap_entries">
+    <item>Kliknutí levým tlačítkem myši</item>
+    <item>Kliknutí pravým tlačítkem myši</item>
+    <item>Kliknutí prostředním tlačítkem myši</item>
+    <item>Nic</item>
+  </string-array>
+    <string-array name="mpris_time_entries">
+    <item>10 sekund</item>
+    <item>20 sekund</item>
+    <item>30 sekund</item>
+    <item>1 minuta</item>
+    <item>2 minuty</item>
+  </string-array>
+    <string-array name="theme_list">
+    <item>Nastaveno spořičem baterie</item>
+    <item>Lehké</item>
+    <item>Tmavé</item>
+  </string-array>
+    <string-array name="theme_list_v28">
+    <item>Výchozí systémový</item>
+    <item>Světlý</item>
+    <item>Tmavý</item>
+  </string-array>
+    <plurals name="incoming_file_title">
+    <item quantity="one">Přijímám %1$d soubor z %2$s</item>
+    <item quantity="few">Přijímám %1$d soubory z %2$s</item>
+    <item quantity="many">Přijímám %1$d souborů z %2$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="incoming_files_text">
+    <item quantity="one">Soubor: %1s</item>
+    <item quantity="few">(Soubor %2$d of %3$d) : %1$s</item>
+    <item quantity="many">(Soubor %2$d of %3$d) : %1$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="outgoing_file_title">
+    <item quantity="one">Odesílám %1$d soubor do %2$s</item>
+    <item quantity="few">Odesílám %1$d soubory do %2$s</item>
+    <item quantity="many">Odesílám %1$d souborů do %2$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="outgoing_files_text">
+    <item quantity="one">Soubor: %1$s</item>
+    <item quantity="few">(Soubor %2$d z %3$d) : %1$s</item>
+    <item quantity="many">(Soubor %2$d z %3$d) : %1$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="received_files_fail_title">
+    <item quantity="one">Selhalo přijímání souboru z %1$s</item>
+    <item quantity="few">Selhalo přijímání %2$d ze %3$d souborů z %1$s</item>
+    <item quantity="many">Selhalo přijímání %2$d ze %3$d souborů z %1$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="received_files_title">
+    <item quantity="one">Přijat soubor z %1$s</item>
+    <item quantity="few">Přijaty %2$d soubory z %1$s</item>
+    <item quantity="many">Přijato %2$d souborů z %1$s</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="send_files_fail_title">
+    <item quantity="one">Odesílání souboru na %1$s selhalo</item>
+    <item quantity="few">Odesílání %2$d souborů z %3$d na %1$s selhalo</item>
+    <item quantity="many">Odesílání %2$d souborů z %3$d na %1$s selhalo</item>
+    <item quantity="other"/>
+  </plurals>
+    <plurals name="sent_files_title">
+    <item quantity="one">Soubor byl odeslán do %1$s</item>
+    <item quantity="few">" %2$d soubory byly odeslány do %1$s"</item>
+    <item quantity="many">" %2$d souborů bylo odesláno do %1$s"</item>
+    <item quantity="other"/>
+  </plurals>
+    <string name="about">O aplikaci</string>
+    <string name="about_kde">O prostředí KDE</string>
+    <string name="about_kde_about">&lt;h1>O KDE&lt;/h1> &lt;p>KDE je celosvětová komunita softwarových inženýrů, výtvarníků, překladatelů a jiných přispěvatelů, kteří se odevzdali vývoji &lt;a href=https://www.gnu.org/philosophy/free-sw.html>Svobodného Softwaru&lt;/a>. KDE vytvořilo pracovní prostředí Plasma, stovky aplikací a spousty knihoven, jenž je podporují. &lt;/p> &lt;p>KDE je společné úsilí, kde žádná společnost neřídí jeho směr nebo produkty. Namísto toho spolupracujeme na společném cíli jímž je vytvoření nejlepšího Free Softwaru. Každý je vítán aby &lt;a href=https://community.kde.org/Get_Involved>se zapojil a přispíval&lt;/a> do KDE, včetně vás. Více informací o komunitě KDE a softwaru, na kterém pracujeme najdete na &lt;/a>$3&lt;a href=https://www.kde.org/>https://www.kde.org/&lt;/a>.</string>
+    <string name="about_kde_join_kde">&lt;h1>Přidejte se ke KDE&lt;/h1> &lt;p>K tomu, abyste se stali členem týmu KDE, není zapotřebí být vývojářem softwaru. Můžete se připojit k překladatelským týmům, které překládají programy. Můžete vytvářet grafiku, motivy, zvuky a lepší dokumentaci. Vy se rozhodněte!&lt;/p> &lt;p>Navštivte &lt;a href=https://community.kde.org/Get_Involved>https://community.kde.org/Get_Involved&lt;/a> kde naleznete informace o některých projektech, kterých se můžete zúčastnit.&lt;/p> Potřebujete-li více informací nebo dokumentace, pak návštěva na &lt;a href=https://techbase.kde.org/>https://techbase.kde.org/&lt;/a> vám poskytne, co potřebujete.&lt;/p>České stránky o KDE se nacházejí na adrese &lt;a href=\"http://czechia.kde.org/\">http://czechia.kde.org/&lt;/a> . Přidejte se k nám!</string>
+    <string name="about_kde_report_bugs_or_wishes">&lt;h1>Hlaste chyby a návrhy&lt;/h1> &lt;p>Software je možno neustále vylepšovat a tým KDE je k tomu připraven. Avšak vy, uživatel, nám musíte sdělit, když něco nefunguje tak, jak by se očekávalo nebo by mělo být uděláno lépe.&lt;/p> &lt;p>KDE má systém sledování chyb. Chcete-li tedy nahlásit chybu, navštivte &lt;a href=https://bugs.kde.org/>https://bugs.kde.org/&lt;/a> nebo použijte dialog \"Nahlásit chybu...\".&lt;/p> Máte-li náměty na vylepšení, budeme rádi, pošlete-li nám svoje přání. Ujistěte se však, že jste označili chybové hlášení jako \"Přání\".</string>
+    <string name="about_kde_support_kde">&lt;h1>Podpořte KDE&lt;/h1> &lt;p>KDE je a vždy bude dostupné zdarma, ale jeho tvorba zdarma není.&lt;/p> &lt;p>Proto jsme vytvořili Asociaci KDE, neziskovou organizaci založenou v Tuebingenu, Německo. Asociace KDE reprezentuje komunitu KDE v právních a finančních záležitostech. Podívejte se na &lt;a href=https://ev.kde.org/>https://ev.kde.org/&lt;/a> informace o KDE e.V.&lt;/p> &lt;p>KDE staví na různých způsobech pomoci, včetně finanční. Peníze používáme na proplacení výdajů našich členů a dalších př přispívání. Další finance jsou použity na právnickou podporu, a organizaci konferencí a setkání.&lt;/p> &lt;p>Chtěli bychom vás poprosit o podporu v naší snaze pomocí finančního daru některým ze způsobů popsaných na &lt;a href=https://www.kde.org/community/donations/>https://www.kde.org/community/donations/&lt;/a>.&lt;/p> Předem děkujeme za váš příspěvek a podporu.</string>
+    <string name="add_command">Přidat příkaz</string>
+    <string name="add_command_description">V pracovním prostředí můžete přidat příkazy</string>
+    <string name="add_device_dialog_title">Přidat zařízení</string>
+    <string name="add_device_hint">Název hostitele nebo IP adresa</string>
+    <string name="add_trusted_network">Přidat %1s</string>
+    <string name="addcommand_explanation">Nejsou registrovány žádné příkazy</string>
+    <string name="addcommand_explanation2">Nové příkazy můžete přidat v nastavení systému Zorin Connect</string>
+    <string name="alex_fiestas_task">Vylepšení modulu kontaktů</string>
+    <string name="all">Vše</string>
+    <string name="all_permissions_granted">Veškerá oprávnění udělena 🎉</string>
+    <string name="allow_all_networks_text">Povolit všechny</string>
+    <string name="aniket_kumar_task">Vylepšení modulu SMS</string>
+    <string name="apple_support">Podpora macOS. Práce na podpoře iOS</string>
+    <string name="authors">Autoři</string>
+    <string name="battery_status_charging_format">Baterie: %d%% nabíjí se</string>
+    <string name="battery_status_format">Baterie: %d%%</string>
+    <string name="battery_status_low_format">Baterie: %d%% Téměř vybitá baterie</string>
+    <string name="bigscreen_down">Dolů</string>
+    <string name="bigscreen_home">Domů</string>
+    <string name="bigscreen_left">Vlevo</string>
+    <string name="bigscreen_mic">Mikrofon</string>
+    <string name="bigscreen_optional_permission_explanation">Pro sdílení vstupu mikrofonu z vašeho telefonu je potřeba udělit přístup ke vstupnímu audio zařízení telefonu</string>
+    <string name="bigscreen_right">Vpravo</string>
+    <string name="bigscreen_select">Vybrat</string>
+    <string name="bigscreen_speech_extra_prompt">Mluvené slovo</string>
+    <string name="bigscreen_up">Nahoru</string>
+    <string name="block_contents">Blokovat obsah oznámení</string>
+    <string name="block_images">Blokovat obrázky v oznámení</string>
+    <string name="block_notification_contents">Blokovat obsah upozornění</string>
+    <string name="block_notification_images">Blokovat obrázky upozornění</string>
+    <string name="bug_fixes_and_general_improvements">Opravy chyb a vylepšení</string>
+    <string name="cancel">Zrušit</string>
+    <string name="cancel_pairing">Zrušit párování</string>
+    <string name="cannot_create_file">Nelze vytvořit soubor %s</string>
+    <string name="cant_open_url">Nelze otevřít URL pro pokračování v přehrávání</string>
+    <string name="category_connected_devices">Připojená zařízení</string>
+    <string name="category_not_paired_devices">Dostupná zařízení</string>
+    <string name="category_remembered_devices">Zapamatovaná zařízení</string>
+    <string name="clear_compose">Vyprázdnit</string>
+    <string name="click_here_to_type">Pro psaní ťukněte sem</string>
+    <string name="clipboard_android_x_incompat">Android 10 odstranit přístup ke schránce pro všechny aplikace. Tento modul bude zakázán.</string>
+    <string name="clipboard_toast">Zkopírováno do schránky</string>
+    <string name="close">Zavřít</string>
+    <string name="contacts_per_device_confirmation">Kontakty vašeho zařízení budou zkopírovány do tohoto zařízení aby je bylo možné použít pro připojení aplikací pro SMS a dalších.</string>
+    <string name="contacts_permission_explanation">Pro sdílení knihy kontaktů s pracovním prostředím, musíte udělit přístup ke kontaktům</string>
+    <string name="convert_to_mms_after_title">Převést na MMS</string>
+    <string name="copy_url_to_clipboard">Kopírovat URL do schránky</string>
+    <string name="custom_device_deleted">Vlastní zařízení bylo smazáno</string>
+    <string name="custom_device_fab_hint">Přidat zařízení</string>
+    <string name="custom_device_list">Přidat zařízení podle IP</string>
+    <string name="custom_device_list_help">Pokud vaše zařízení není automaticky detekováno, můžete přidat jeho adresu IP nebo hostname kliknutím na tlačítko pro plovoucí činnosti</string>
+    <string name="custom_devices_settings">Seznam vlastních zařízení</string>
+    <string name="developer">Vývojář</string>
+    <string name="device_list_empty">Žádná zařízení</string>
+    <string name="device_menu_plugins">Nastavení modulů</string>
+    <string name="device_menu_unpair">Zrušit párování</string>
+    <string name="device_not_paired">Zařízení není spárováno</string>
+    <string name="device_rename_confirm">Přejmenovat</string>
+    <string name="device_rename_title">Přejmenovat zařízení</string>
+    <string name="devices">Zařízení</string>
+    <string name="donate">Přispět</string>
+    <string name="double_tap_to_drag">Přetáhnout dvojitým ťuknutím</string>
+    <string name="easter_egg">Skrytý vtípek</string>
+    <string name="email_contributor">Poslat e-mail autorovi\n%s</string>
+    <string name="empty_trusted_networks_list_text">Nepřidali jste žádné důvěryhodné sítě</string>
+    <string name="enable_bluetooth">Povolit Bluetooth (beta)</string>
+    <string name="enable_udp_broadcast">Povolit prohledávání sítě UDP</string>
+    <string name="encryption_info_title">Informace o šifrování</string>
+    <string name="error_already_paired">Zařízení je již spárováno</string>
+    <string name="error_canceled_by_other_peer">Přerušeno druhým uživatelem</string>
+    <string name="error_canceled_by_user">Přerušeno uživatelem</string>
+    <string name="error_not_reachable">Zařízení je nedostupné</string>
+    <string name="error_timed_out">Čas vypršel</string>
+    <string name="everyone_else">Každý kdo přispěl do Zorin Connect během let</string>
+    <string name="extra_options">Další možnosti</string>
+    <string name="filter_apps_info">Oznámení vybraných aplikací bude synchronizováno.</string>
+    <string name="findmyphone_description">Prozvoní toto zařízení, takže jej můžete najít</string>
+    <string name="findmyphone_found">Nalezeno</string>
+    <string name="findmyphone_notifications_explanation">Oprávnění k upozorněním je potřeba aby telefon mohl zvonit když je aplikace na pozadí</string>
+    <string name="findmyphone_title">Najít můj telefon</string>
+    <string name="findmyphone_title_tablet">Najít můj tablet</string>
+    <string name="findmyphone_title_tv">Najít mou TV</string>
+    <string name="foreground_notification_devices">Připojen k: %s</string>
+    <string name="foreground_notification_no_devices">Žádná připojená zařízení</string>
+    <string name="foreground_notification_send_clipboard">Poslat schránku</string>
+    <string name="gyro_mouse_enabled_title">Povolit gyroskopickou myš</string>
+    <string name="gyro_mouse_sensitivity_title">Citlivost gyroskopu</string>
+    <string name="hold_to_drag">Přetáhnout podržením</string>
+    <string name="holger_kaelberer_task">Vzdálené modul klávesnice a opravy chyb</string>
+    <string name="invalid_device_name">Neplatný název zařízení</string>
+    <string name="kde">KDE</string>
+    <string name="kde_be_free">KDE - Buďte svobodní!</string>
+    <string name="kde_connect">Zorin Connect</string>
+    <string name="konqi">Konqi</string>
+    <string name="left_click">Poslat kliknutí levým tlačítkem myši</string>
+    <string name="licenses">Licence</string>
+    <string name="location_permission_needed_desc">Zorin Connect vyžaduje oprávnění o poloze na pozadí aby poznal WiFi, ke které jste připojeni i když je aplikace samotná na pozadí. To je kvůli tomu, že názvy sítí WiFi okolo vás by mohly být použity pro nalezení vaší polohy i když to není to, co Zorin Connect dělá.</string>
+    <string name="location_permission_needed_title">Získán přístup</string>
+    <string name="maintainer_and_developer">Správce a vývojář</string>
+    <string name="manifest_label_share">Poslat na zařízení</string>
+    <string name="mark_as_read_label">OZNAČIT JAKO PŘEČTENÉ</string>
+    <string name="maxim_leshchenko_task">Vylepšení prostředí a tato stránka o aplikaci</string>
+    <string name="message_reply_label">ODPOVĚĎ</string>
+    <string name="middle_click">Poslat kliknutí prostředním tlačítkem</string>
+    <string name="mouse_receiver_no_permissions">Pro příjem dotykového vstupu musíte nejdřív udělit oprávnění přístupnosti aby zařízení šlo ovládat</string>
+    <string name="mouse_receiver_plugin_description">Přijímat vzdálený pohyb myši</string>
+    <string name="mouse_receiver_plugin_name">Příjemce myši</string>
+    <string name="mousepad_acceleration_profile_settings_title">Nastavit akceleraci ukazatele</string>
+    <string name="mousepad_double_tap_settings_title">Nastavit činnost pro ťuknutí dvěma prsty</string>
+    <string name="mousepad_info">Pohybujte prstem po obrazovce pro pohybování kurzorem myši. Ťukněte pro kliknutí a použijte dva/tři prsty jako pravé a prostřední tlačítko. Použijte 2 prsty pro posunování. Pro přetažení dlouze podržte. Funkčnost gyro myš lze povolit v předvolbách modulu.</string>
+    <string name="mousepad_info_no_gestures">Pohybujte prstem po obrazovce pro pohybování kurzorem myši, ťukněte pro kliknutí.</string>
+    <string name="mousepad_keyboard_input_not_supported">Vstup pomocí klávesnice není spárovaným zařízením podporován</string>
+    <string name="mousepad_mouse_buttons_title">Zobrazit tlačítka myši</string>
+    <string name="mousepad_scroll_direction_title">Obrácený směr posunu</string>
+    <string name="mousepad_scroll_sensitivity_title">Citlivost posunu</string>
+    <string name="mousepad_sensitivity_settings_title">Nastavit citlivost touchpadu</string>
+    <string name="mousepad_single_tap_settings_title">Nastavit činnost pro ťuknutí prstem</string>
+    <string name="mousepad_triple_tap_settings_title">Nastavit činnost pro ťuknutí třemi prsty</string>
+    <string name="mpris_coverart_description">Obal současného média</string>
+    <string name="mpris_ff">Rychle vpřed</string>
+    <string name="mpris_keepwatching">Pokračovat v přehrávání</string>
+    <string name="mpris_keepwatching_settings_summary">Zobrazit tiché upozornění pro pokračování přehrávání na tomto zařízení po zavření médií</string>
+    <string name="mpris_keepwatching_settings_title">Pokračovat v přehrávání</string>
+    <string name="mpris_loop">Smyčka</string>
+    <string name="mpris_next">Následující</string>
+    <string name="mpris_notification_settings_summary">Umožnit ovládání přehrávače médií bez otevření Zorin Connect</string>
+    <string name="mpris_notification_settings_title">Obrazit oznámení pro ovládání médií</string>
+    <string name="mpris_notifications_explanation">Oprávnění k upozorněním je potřeba pro zobrazení vzdálených médií v upozorněních</string>
+    <string name="mpris_open_url">Pokračovat v přehrávání zde</string>
+    <string name="mpris_pause">Pozastavit</string>
+    <string name="mpris_play">Přehrát</string>
+    <string name="mpris_previous">Předchozí</string>
+    <string name="mpris_rew">Přetočit zpět</string>
+    <string name="mpris_shuffle">Zamíchat</string>
+    <string name="mpris_stop">Zastavit současný přehrávač</string>
+    <string name="mpris_time_settings_summary">Upravit čas pro rychlý posun/přetočení při stisku</string>
+    <string name="mpris_time_settings_title">Tlačítka vpřed/přetočit</string>
+    <string name="mpris_volume">Hlasitost</string>
+    <string name="mute">Ztlumit</string>
+    <string name="my_device_fingerprint">Otisk SHA256 certifikátu vašeho zařízení je:</string>
+    <string name="no_app_for_opening">Pro otevření tohoto souboru nebyla nalezena vhodná aplikace</string>
+    <string name="no_file_browser">Není nainstalován žádný prohlížeč souborů.</string>
+    <string name="no_notifications">Upozornění jsou zakázána. Neuvidíte upozornění na párování.</string>
+    <string name="no_permission_mprisreceiver">Abyste byli schopni ovládat vaše přehrávače médií, musíte udělit přístup k oznámením</string>
+    <string name="no_permissions">Pro zpřístupnění oznámení potřebujete oprávnění</string>
+    <string name="no_permissions_remotekeyboard">Pro zachytávání stisků kláves je potřeba aktivovat vzdálenou klávesnici Zorin Connect</string>
+    <string name="no_players_connected">Přehrávač nenalezen</string>
+    <string name="no_wifi">Nejste připojeni k síti Wi-Fi, takže nemůžete vidět žádná zařízení. Pro zapnutí Wi-Fi klikněte zde.</string>
+    <string name="notification_channel_default">Ostatní oznámení</string>
+    <string name="notification_channel_filetransfer">Příchozí přenos souboru</string>
+    <string name="notification_channel_filetransfer_error">Chyba v přenosu souboru</string>
+    <string name="notification_channel_filetransfer_upload">Odchozí přenos souboru</string>
+    <string name="notification_channel_high_priority">Vysoká priorita</string>
+    <string name="notification_channel_keepwatching">Pokračovat v přehrávání</string>
+    <string name="notification_channel_media_control">Ovládání médií</string>
+    <string name="notification_channel_persistent">Stálý ukazatel</string>
+    <string name="notification_channel_receivenotification">Oznámení z ostatních zařízení</string>
+    <string name="ok">OK</string>
+    <string name="on_non_trusted_message">Síť není důvěryhodná. Automatické hledání bylo vypnuto.</string>
+    <string name="open">Otevřít</string>
+    <string name="open_compose_send">Napsat text</string>
+    <string name="open_mousepad">Vzdálený vstup</string>
+    <string name="open_mpris_controls">Ovládání multimédií</string>
+    <string name="open_settings">Otevřít nastavení</string>
+    <string name="optional_permission_explanation">Pro zpřístupnění všech funkcí potřebujete další oprávnění</string>
+    <string name="pair_new_device">Spárovat nové zařízení</string>
+    <string name="pair_requested">Bylo vyžádáno párování</string>
+    <string name="pair_succeeded">Párování bylo úspěšné</string>
+    <string name="pairing_accept">Přijmout</string>
+    <string name="pairing_description">Zde by se měla zobrazit další zařízení, na kterých běží Zorin Connect ve stejné síti.</string>
+    <string name="pairing_reject">Odmítnout</string>
+    <string name="pairing_request_from">Požadavek o párování z \'%1s\'</string>
+    <string name="pairing_title">Zařízení Zorin Connect</string>
+    <string name="permission_explanation">Tento modul potřebuje pro práci povolení</string>
+    <string name="plugin_settings_with_name">Nastavení %s</string>
+    <string name="plugin_stats">Statistiky modulů</string>
+    <string name="plugins_need_optional_permission">Některé moduly mají vypnuté vlastnosti, kvůli nedostatečným oprávněním (ťukněte pro více informací):</string>
+    <string name="plugins_need_permission">Některé moduly potřebují pro práci povolení (ťukněte pro více informací):</string>
+    <string name="pref_plugin_battery">Hlášení baterie</string>
+    <string name="pref_plugin_battery_desc">Periodicky hlásit stav baterky</string>
+    <string name="pref_plugin_bigscreen">Dálkový ovladač pro Bigscreen</string>
+    <string name="pref_plugin_bigscreen_desc">Používejte své zařízení jako ovladač pro Plasma Bigscreen</string>
+    <string name="pref_plugin_clipboard">Synchronizace schránky</string>
+    <string name="pref_plugin_clipboard_desc">Sdílet obsah schránky</string>
+    <string name="pref_plugin_clipboard_sent">Schránka poslána</string>
+    <string name="pref_plugin_connectivity_report">Hlášení spojení</string>
+    <string name="pref_plugin_connectivity_report_desc">Nahlásit stav a sílu signálu sítě</string>
+    <string name="pref_plugin_contacts">Synchronizace kontaktů</string>
+    <string name="pref_plugin_contacts_desc">Povolit synchronizaci kontaktů zařízení</string>
+    <string name="pref_plugin_findremotedevice">Najít vzdálené zařízení</string>
+    <string name="pref_plugin_findremotedevice_desc">Prozvonit vzdálené zařízení</string>
+    <string name="pref_plugin_mousepad">Vzdálený vstup</string>
+    <string name="pref_plugin_mousepad_desc">Používejte svůj telefon nebo tablet jako touchpad a klávesnici</string>
+    <string name="pref_plugin_mousepad_send_keystrokes">Posílat jako úhozy kláves</string>
+    <string name="pref_plugin_mpris">Ovládání multimédií</string>
+    <string name="pref_plugin_mpris_desc">Poskytuje dálkové ovládání přehrávačů médií</string>
+    <string name="pref_plugin_mprisreceiver">Ovládání přehrávače médií</string>
+    <string name="pref_plugin_mprisreceiver_desc">Ovládejte přehrávače médií na vašem telefonu z jiného zařízení</string>
+    <string name="pref_plugin_notifications">Synchronizace oznámení</string>
+    <string name="pref_plugin_notifications_desc">Zpřístupněte si oznámení z jiných zařízení</string>
+    <string name="pref_plugin_ping">Ping</string>
+    <string name="pref_plugin_ping_desc">Posílat a přijímat ping</string>
+    <string name="pref_plugin_presenter">Ovladač prezentace</string>
+    <string name="pref_plugin_presenter_desc">Použijte své zařízení pro přepínání snímků prezentace</string>
+    <string name="pref_plugin_receive_notifications">Přijímat oznámení</string>
+    <string name="pref_plugin_receive_notifications_desc">Přijímat oznámení z jiného zařízení a zobrazovat je v Androidu</string>
+    <string name="pref_plugin_remotekeyboard">Přijímat stisky kláves se vzdálených zařízení</string>
+    <string name="pref_plugin_remotekeyboard_desc">Přijímat události stisku kláves ze vzdálených zařízení</string>
+    <string name="pref_plugin_runcommand">Spustit příkaz</string>
+    <string name="pref_plugin_runcommand_desc">Spouštějte příkazy vzdáleně z vašeho telefonu</string>
+    <string name="pref_plugin_sftp">Přístup k souborovému systému</string>
+    <string name="pref_plugin_sftp_desc">Umožní vám vzdáleně prohlížet souborový systém tohoto zařízení</string>
+    <string name="pref_plugin_sharereceiver">Sdílet a přijmout</string>
+    <string name="pref_plugin_sharereceiver_desc">Sdílet soubory a odkazy mezi zařízeními</string>
+    <string name="pref_plugin_systemvolume">Hlasitost systému</string>
+    <string name="pref_plugin_systemvolume_desc">Ovládejte hlasitost systému vzdáleného zařízení</string>
+    <string name="pref_plugin_telepathy">Poslat SMS</string>
+    <string name="pref_plugin_telepathy_desc">Posílejte zprávy ze své pracovní plochy</string>
+    <string name="pref_plugin_telepathy_mms">Poslat MMS</string>
+    <string name="pref_plugin_telepathy_mms_desc">Abyste mohli posílat MMS pomocí Zorin Connect jej musíte nastavit jako výchozí aplikaci na SMS.</string>
+    <string name="pref_plugin_telephony">Upozornění telefonie</string>
+    <string name="pref_plugin_telephony_desc">Posílat oznámení příchozích hovorů</string>
+    <string name="presenter_exit">Ukončit prezentaci</string>
+    <string name="presenter_fullscreen">Celá obrazovka</string>
+    <string name="presenter_lock_tip">Můžete zamknout zařízení a použít klávesy pro ovládání hlasitosti pro posun na předchozí/další snímek</string>
+    <string name="presenter_pointer">Ukazatel</string>
+    <string name="privacy_options">Možnosti soukromí</string>
+    <string name="protocol_version_newer">Toto zařízení používá novější verzi protokolu</string>
+    <string name="receive_notifications_permission_explanation">Je potřeba povolit oznámení aby e šlo přijímat z ostatních zařízení</string>
+    <string name="received_file_text">Ťukněte pro otevření \'%1s\'</string>
+    <string name="refresh">Obnovit</string>
+    <string name="remote_device_fingerprint">Otisk certifikátu SHA256 vzdáleného zařízení je:</string>
+    <string name="remote_keyboard_service">Vzdálená klávesnice pro Zorin Connect</string>
+    <string name="remotekeyboard_connected">Vzdálené připojení klávesnice je aktivní</string>
+    <string name="remotekeyboard_editing_only_title">Ovládat vzdálené klávesy při editaci</string>
+    <string name="remotekeyboard_multiple_connections">Je k dispozici více než jedno připojení klávesnice. Vyberte zařízení pro jeho nastavení.</string>
+    <string name="remotekeyboard_not_connected">Není k dispozici žádné vzdálené připojení klávesnice. Nastavte nějaké pomocí Zorin Connect</string>
+    <string name="report_bug">Nahlásit chybu</string>
+    <string name="request_pairing">Vyžádat párování</string>
+    <string name="right_click">Poslat kliknutí pravým tlačítkem</string>
+    <string name="ring">Prozvonit</string>
+    <string name="runcommand_category_device_controls_title">Ovládání zařízení</string>
+    <string name="runcommand_device_controls_summary">Pokud vaše zařízení podporuje Ovládání zařízení, zobrazí se zde příkazy, které jste nastavili.</string>
+    <string name="runcommand_name_as_title_title">Zobrazit název jako popisek</string>
+    <string name="runcommand_noruncommandplugin">Toto zařízení nemá povolený modul pro spouštění příkazů</string>
+    <string name="runcommand_nosuchdevice">Není zde žádné takové zařízení</string>
+    <string name="runcommand_notpaired">Zařízení není spárováno</string>
+    <string name="runcommand_notreachable">Zařízení je nedostupné</string>
+    <string name="sad_ok">OK :(</string>
+    <string name="saikrishna_arcot_task">Podpora použití klávesnice na vzdáleném vstupním modulu, opravy chyb a obecná zlepšení</string>
+    <string name="samoilenko_yuri_task">Implementace SFTP, opravy chyb a obecná vylepšení</string>
+    <string name="select_ringtone">Vybrat vyzváněcí tón</string>
+    <string name="send_clipboard">Poslat schránku</string>
+    <string name="send_compose">Odeslat</string>
+    <string name="send_files">Odeslat soubory</string>
+    <string name="send_ping">Poslat ping</string>
+    <string name="sendkeystrokes_disabled_toast">Odesílání stisků klávesnice je zakázáno - povolte jej v nastavení</string>
+    <string name="sendkeystrokes_pref_category_summary">Tento modul umožňuje ostatním aplikacím sdílet kusy textu jako úhozy kláves, které budou odeslány na jiný připojený stroj</string>
+    <string name="sendkeystrokes_pref_category_title">Posílat úhozy kláves</string>
+    <string name="sendkeystrokes_pref_enabled">Povolit odesílání úhozů kláves</string>
+    <string name="sendkeystrokes_pref_enabled_summary">Naslouchat datům s typem MIME \'text/x-keystrokes\'</string>
+    <string name="sendkeystrokes_safe_text_enabled">Poslat bezpečný text ihned</string>
+    <string name="sendkeystrokes_safe_text_enabled_summary">Poslat krátké číselné řetězce bez potvrzení</string>
+    <string name="sendkeystrokes_send_to">Posílat úhozy kláves na</string>
+    <string name="sendkeystrokes_sent_text">Poslat %1$s na zařízení %2$s</string>
+    <string name="sendkeystrokes_textbox_hint">Posílat úhozy kláves na hostitele</string>
+    <string name="sendkeystrokes_wrong_data">Neplatný typ MIME - musí být \'text/x-keystrokes\'</string>
+    <string name="set_default_sms_app_title">Poslat MMS</string>
+    <string name="set_group_message_as_mms_title">Poslat skupinovou MMS</string>
+    <string name="set_long_text_as_mms_title">Poslat dlouhý text jako MMS</string>
+    <string name="set_privacy_options">Nastavte své možnosti soukromí</string>
+    <string name="setting_persistent_notification">Ukázat stálé upozornění</string>
+    <string name="setting_persistent_notification_description">Ťuknutím povolíte/zakážete v nastavení oznámení</string>
+    <string name="setting_persistent_notification_oreo">Stálé upozornění</string>
+    <string name="settings">Nastavení</string>
+    <string name="settings_dark_mode">Tmavý motiv</string>
+    <string name="settings_icon_description">Ikona nastavení</string>
+    <string name="settings_more_settings_text">Nastavení \"pro každé zařízení\" lze najít v \'Nastavení modulu\' v zařízení.</string>
+    <string name="settings_more_settings_title">Více nastavení</string>
+    <string name="settings_rename">Název zařízení</string>
+    <string name="sftp_action_mode_menu_delete">Smazat</string>
+    <string name="sftp_manage_storage_permission_explanation">Pro umožnění vzdáleného přístupu k souborům na tomto zařízení musíte povolit aplikaci Zorin Connect spravovat úložiště.</string>
+    <string name="sftp_no_storage_locations_configured">Nebyla nastavena umístění úložiště.</string>
+    <string name="sftp_preference_add_storage_location_title">Přidejte umístění úložiště</string>
+    <string name="sftp_preference_configured_storage_locations">Nastavená umístění úložiště</string>
+    <string name="sftp_preference_edit_storage_location">Upravit umístění úložiště</string>
+    <string name="sftp_saf_permission_explanation">Pro vzdálený přístup k souborům musíte nastavit umístění úložišť</string>
+    <string name="sftp_storage_preference_click_to_select">klikněte pro výběr</string>
+    <string name="sftp_storage_preference_display_name">Název obrazovky</string>
+    <string name="sftp_storage_preference_display_name_already_used">Tento název obrazovky je již použit</string>
+    <string name="sftp_storage_preference_display_name_cannot_be_empty">Název obrazovky nesmí být prázdný</string>
+    <string name="sftp_storage_preference_storage_location">Umístění úložiště</string>
+    <string name="sftp_storage_preference_storage_location_already_configured">´Operace již byla zrušena</string>
+    <string name="share">Sdílet</string>
+    <string name="share_destination_customize">Přizpůsobte si cílový adresář</string>
+    <string name="share_destination_customize_summary_disabled">Přijaté soubory se objeví v Downloads</string>
+    <string name="share_destination_customize_summary_enabled">Soubory budou ukládány v adresáři níže</string>
+    <string name="share_destination_folder_preference">Cílový adresář</string>
+    <string name="share_notification_preference">Hlasitá oznámení</string>
+    <string name="share_notification_preference_summary">Vibrovat a přehrát melodii při přijímání souboru</string>
+    <string name="share_notifications_explanation">Abyste mohli vidět průběh odesílání nebo přijímání souborů, potřebujete povolit upozornění</string>
+    <string name="share_optional_permission_explanation">Pro příjem souborů je potřeba povolit přístup k úložišti</string>
+    <string name="share_received_file">Sdílet \"%s\"</string>
+    <string name="share_to">Sdílet s...</string>
+    <string name="shareplugin_text_saved">Přijatý text byl uložen do schránky</string>
+    <string name="shellwen_chen_task">Vylepšení zabezpečení SFTP, zlepšení udržovatelnosti projektu, opravy chyb a obecná vylepšení</string>
+    <string name="show_keyboard">Zobrazit klávesnici</string>
+    <string name="show_notification_if_screen_off">Poslat upozornění pouze při uzamčené obrazovce</string>
+    <string name="source_code">Zdrojový kód</string>
+    <string name="tap_to_answer">Ťukněte pro odpovězení</string>
+    <string name="tap_to_execute">Pro spuštění ťukněte sem</string>
+    <string name="tap_to_open">Ťukněte pro otevření</string>
+    <string name="telepathy_permission_explanation">Pro čtení a psaní SMS z počítače musíte udělit oprávnění k SMS</string>
+    <string name="telephony_optional_permission_explanation">Pro zobrazení jména kontaktu u telefonního čísla je potřeba udělit oprávnění ke kontaktům v telefonu</string>
+    <string name="telephony_permission_explanation">Pro zobrazení telefonátů v počítači musíte udělit oprávnění k záznamům telefonování a stavu telefonu</string>
+    <string name="telephony_pref_blocked_dialog_desc">Nezobrazovat volání a SMS z těchto čísel. Prosím, zadejte pouze jedno slovo na řádek.</string>
+    <string name="telephony_pref_blocked_title">Blokovaná čísla</string>
+    <string name="thanks_to">Poděkování</string>
+    <string name="theme_dialog_title">Vyberte motiv</string>
+    <string name="title_activity_notification_filter">Filtr oznámení</string>
+    <string name="trusted_networks">Důvěryhodné sítě</string>
+    <string name="trusted_networks_desc">Omezit automatické hledání na známé sítě</string>
+    <string name="undo">Zpět</string>
+    <string name="unknown_device">Neznámé zařízení</string>
+    <string name="unreachable_description">Toto spárované zařízení je nedosažitelné. Ujistěte se, že běží ve stejné síti.</string>
+    <string name="unreachable_device">%s (nedostupná)</string>
+    <string name="unreachable_device_url_share_text">URL sdílená s nedostupným zařízením budou zaslána jakmile se stane dostupným.\n\n</string>
+    <string name="user_display_name">Vy</string>
+    <string name="version">Verze %s</string>
+    <string name="view_status_title">Stav</string>
+    <string name="visit_contributors_homepage">Navštívit domovskou stránku autora\n%s</string>
+    <string name="website">Webová stránka</string>
+</resources>

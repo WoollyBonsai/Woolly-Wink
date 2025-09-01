@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_run_command.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_run_command.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_licenses.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_licenses.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/fragment_about.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_plugin_settings.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_plugin_settings.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_easter_egg.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_easter_egg.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_mousepad.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_mousepad.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_custom_devices.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_custom_devices.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/pairing_explanation_text_no_notifications.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/pairing_explanation_text_no_notifications.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/view_pair_request.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/view_pair_request.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/widget_remotecommandplugin.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/widget_remotecommandplugin.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/mouse_receiver_cursor.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/mouse_receiver_cursor.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/pairing_explanation_text.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/pairing_explanation_text.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/preference_with_button.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/preference_with_button.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_device.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_device.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_item_plugin_header.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_item_plugin_header.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/devices_list.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/devices_list.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_card_entry.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_card_entry.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/about_person_list_item_entry.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/about_person_list_item_entry.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/pairing_explanation_text_no_wifi.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/pairing_explanation_text_no_wifi.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/custom_device_item.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/custom_device_item.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_item_systemvolume.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_item_systemvolume.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/nav_header.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_item_category.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_item_category.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/privacy_options.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/privacy_options.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_mpris.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_mpris.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_notification_filter.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_notification_filter.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/mpris_control.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/mpris_control.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/edit_text_alert_dialog_view.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/edit_text_alert_dialog_view.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/popup_notificationsfilter.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/popup_notificationsfilter.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/widget_remote_command_plugin_dialog.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/widget_remote_command_plugin_dialog.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/trusted_network_list.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/trusted_network_list.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/view_pair_error.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/view_pair_error.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_about_kde.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_about_kde.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/toolbar.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_sendkeystrokes.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_sendkeystrokes.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_bigscreen.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_bigscreen.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_find_my_phone.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_find_my_phone.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/mpris_now_playing.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/mpris_now_playing.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_item_entry.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_item_entry.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_clipboard_floating.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_clipboard_floating.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/list_item_with_icon_entry.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/list_item_with_icon_entry.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_share.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_share.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/activity_main.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/fragment_storage_preference_dialog.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/fragment_storage_preference_dialog.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/pairing_explanation_not_trusted.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/pairing_explanation_not_trusted.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/system_volume_fragment.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/system_volume_fragment.xml"
+    },
+    {
+        "merged": "com.zorinos.zorin_connect-mergeReleaseResources-69:/layout/preference_widget_material_switch.xml",
+        "source": "com.zorinos.zorin_connect-zorin-connect-android-72:/layout/preference_widget_material_switch.xml"
+    }
+]

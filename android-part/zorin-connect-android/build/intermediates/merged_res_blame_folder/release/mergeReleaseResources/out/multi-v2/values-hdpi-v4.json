@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zorinos.zorin_connect-mergeReleaseResources-68:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/woolly/.gradle/caches/8.11.1/transforms/226171bf950ed6d15604d196845c8e0c/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

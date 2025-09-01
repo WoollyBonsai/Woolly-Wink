@@ -23,17 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/woolly/.gradle/caches/8.11.1/transforms/226171bf950ed6d15604d196845c8e0c/transformed/appcompat-1.7.0/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "/home/woolly/Desktop/Woolly-Wink/android-part/zorin-connect-android/res/values-land/consts.xml",
+                    "source": "/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/res/values-land/consts.xml",
                     "from": {
                         "startLines": "15,14,17,16,12,13,11,10",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -47,6 +37,16 @@
                         "startOffsets": "413,497,557,644,1865,1928,1994,2218",
                         "endColumns": "83,59,86,62,62,65,91,47",
                         "endOffsets": "492,552,639,702,1923,1989,2081,2261"
+                    }
+                },
+                {
+                    "source": "/home/woolly/.gradle/caches/8.11.1/transforms/226171bf950ed6d15604d196845c8e0c/transformed/appcompat-1.7.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

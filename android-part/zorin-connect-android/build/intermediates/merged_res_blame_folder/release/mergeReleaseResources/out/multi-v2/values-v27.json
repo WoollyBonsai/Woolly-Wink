@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zorinos.zorin_connect-mergeReleaseResources-68:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/woolly/Desktop/Woolly-Wink/Git-Push/Woolly-Wink/android-part/zorin-connect-android/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "15,9,23,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "535,214,918,606",
+                        "endLines": "15,13,25,21",
+                        "endColumns": "69,12,12,12",
+                        "endOffsets": "600,529,1118,912"
+                    },
+                    "to": {
+                        "startLines": "2,3,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,124,444,649",
+                        "endLines": "2,7,10,15",
+                        "endColumns": "68,12,12,12",
+                        "endOffsets": "119,439,644,924"
+                    }
+                }
+            ]
+        }
+    ]
+}

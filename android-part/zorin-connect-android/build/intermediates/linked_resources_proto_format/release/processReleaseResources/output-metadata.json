@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "LINKED_RESOURCES_PROTO_FORMAT",
+    "kind": "Directory"
+  },
+  "applicationId": "com.zorinos.zorin_connect",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 13302,
+      "versionName": "1.33.2",
+      "outputFile": "linked-resources-proto-format-release.ap_"
+    }
+  ],
+  "elementType": "File"
+}
